@@ -35,11 +35,13 @@ plt.rcParams.update({
 # ============================================================
 
 def extract_tag_id(json_path):
-    """Extract tag ID from filename pattern: {TAG_ID}_{date}_{time}.json"""
+    """Extract tag ID from filename pattern: {TAG_ID}_{YYYY-MM-DD}_{HH-MM-SS}.json"""
+    import re
     stem = json_path.stem
-    parts = stem.split('_')
-    if len(parts) >= 3:
-        return parts[0]
+    # Find the date pattern and take everything before it as the tag ID
+    match = re.search(r'_(\d{4}-\d{2}-\d{2})_(\d{2}-\d{2}-\d{2})$', stem)
+    if match:
+        return stem[:match.start()]
     return stem
 
 
@@ -641,14 +643,27 @@ def plot_comparison(datasets):
 
     colors = plt.cm.Set2(np.linspace(0, 1, n))
 
-    # Panel 1: Readability per height
-    all_heights = datasets[0]['axis_values']['height']
+    # Panel 1: Readability per height (union of all heights across datasets)
+    all_heights_set = set()
+    for ds in datasets:
+        all_heights_set.update(ds['axis_values']['height'])
+    all_heights = np.array(sorted(all_heights_set))
     x = np.arange(len(all_heights))
     width = 0.8 / n
 
     for k, ds in enumerate(datasets):
-        rates = compute_readability_rate(ds['data'], 'heights', all_heights)
-        ax1.bar(x + k * width - 0.4 + width / 2, rates, width,
+        ds_heights = set(ds['axis_values']['height'])
+        rates = []
+        for h in all_heights:
+            if h in ds_heights:
+                rate = compute_readability_rate(ds['data'], 'heights', np.array([h]))
+                rates.append(rate[0])
+            else:
+                rates.append(np.nan)
+        rates = np.array(rates)
+        valid = ~np.isnan(rates)
+        bar_x = x[valid] + k * width - 0.4 + width / 2
+        ax1.bar(bar_x, rates[valid], width,
                 color=colors[k], label=ds['tag_id'], edgecolor='black', linewidth=0.5)
 
     ax1.set_xticks(x)
@@ -667,7 +682,7 @@ def plot_comparison(datasets):
         speckle_data.append(sp)
         labels.append(ds['tag_id'])
 
-    bp = ax2.boxplot(speckle_data, labels=labels, patch_artist=True)
+    bp = ax2.boxplot(speckle_data, tick_labels=labels, patch_artist=True)
     for patch, color in zip(bp['boxes'], colors):
         patch.set_facecolor(color)
     ax2.set_ylabel('Speckle Area (%)')
