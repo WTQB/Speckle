@@ -222,6 +222,51 @@ def compute_submetrics(img_rgb):
     }
 
 
+def compute_experimental_distributions(img_rgb):
+    """Compute experimental scalar distributions for bimodality search."""
+    eps = 1e-6
+    r = img_rgb[:, :, 0]
+    g = img_rgb[:, :, 1]
+    b = img_rgb[:, :, 2]
+    lum = (r + g + b) / 3.0
+
+    total = r + g + b + eps
+    sat = (np.max(img_rgb, axis=2) - np.min(img_rgb, axis=2)) / np.maximum(np.max(img_rgb, axis=2), eps)
+
+    # Minkowski-style distance from ideal yellow [1,1,0]
+    dy_r = 1.0 - r
+    dy_g = 1.0 - g
+    dy_b = b
+
+    l1 = np.mean(np.abs(dy_r) + np.abs(dy_g) + np.abs(dy_b))
+    l2 = np.mean(np.sqrt(dy_r**2 + dy_g**2 + dy_b**2))
+    l3 = np.mean((np.abs(dy_r)**3 + np.abs(dy_g)**3 + np.abs(dy_b)**3) ** (1.0 / 3.0))
+
+    bg = b / (g + eps)
+    br = b / (r + eps)
+    rg_over_b = (0.5 * (r + g)) / (b + eps)
+    chrom_b = b / total
+
+    white_frac = np.mean((lum > 0.75) & (sat < 0.20))
+    hot_blue_frac = np.mean(bg > 0.55)
+
+    return {
+        'lum_mean': float(np.mean(lum)),
+        'lum_p95': float(np.percentile(lum, 95)),
+        'lum_std': float(np.std(lum)),
+        'bg_ratio_mean': float(np.mean(bg)),
+        'bg_ratio_p90': float(np.percentile(bg, 90)),
+        'br_ratio_mean': float(np.mean(br)),
+        'rg_over_b_mean': float(np.mean(rg_over_b)),
+        'blue_chromaticity_mean': float(np.mean(chrom_b)),
+        'white_fraction': float(white_frac),
+        'hot_blue_fraction': float(hot_blue_frac),
+        'minkowski_l1_yellow': float(l1),
+        'minkowski_l2_yellow': float(l2),
+        'minkowski_l3_yellow': float(l3),
+    }
+
+
 def compute_fdi(scan_dir):
     """Compute Flash Disruption Index for a scan directory.
 
@@ -249,6 +294,8 @@ def compute_fdi(scan_dir):
 
     high = sub_all[high_idx]
     low = sub_all[low_idx]
+    exp_high = compute_experimental_distributions(norm_imgs[high_idx])
+    exp_low = compute_experimental_distributions(norm_imgs[low_idx])
 
     # Weighted composite score (state at high flash).
     weights = {
@@ -268,7 +315,7 @@ def compute_fdi(scan_dir):
     # Composite raw FDI before cross-sample calibration.
     fdi_raw = 0.75 * raw_state + 0.25 * flash_sensitivity
 
-    return {
+    out = {
         'fdi_raw': fdi_raw,
         'fdi': fdi_raw,
         'flash_low': float(flashes[low_idx]),
@@ -286,6 +333,10 @@ def compute_fdi(scan_dir):
         'texture_delta': max(high['texture_disruption'] - low['texture_disruption'], 0.0),
         'blue_spatial_delta': max(high['blue_spatial_var'] - low['blue_spatial_var'], 0.0),
     }
+    for k, v in exp_high.items():
+        out[f'exp_{k}'] = float(v)
+        out[f'exp_delta_{k}'] = float(v - exp_low[k])
+    return out
 
 
 # ============================================================
@@ -397,6 +448,188 @@ def calibrate_fdi(all_results, ref_hints=REFERENCE_TAG_HINTS):
             r['fdi'] = float(np.clip((r['fdi_raw'] - baseline) / scale, 0.0, 1.0))
 
     return {'reference_tag': ref_tag, 'baseline': baseline, 'scale': scale}
+
+
+def _rankdata_average(a):
+    order = np.argsort(a)
+    ranks = np.empty(len(a), dtype=float)
+    i = 0
+    while i < len(a):
+        j = i
+        while j + 1 < len(a) and a[order[j + 1]] == a[order[i]]:
+            j += 1
+        rank = (i + j) / 2.0 + 1.0
+        ranks[order[i:j + 1]] = rank
+        i = j + 1
+    return ranks
+
+
+def _binary_auc(y_true, scores):
+    y_true = np.asarray(y_true).astype(bool)
+    scores = np.asarray(scores, dtype=float)
+    n_pos = np.sum(y_true)
+    n_neg = np.sum(~y_true)
+    if n_pos == 0 or n_neg == 0:
+        return np.nan
+    ranks = _rankdata_average(scores)
+    rank_sum_pos = np.sum(ranks[y_true])
+    u = rank_sum_pos - n_pos * (n_pos + 1) / 2.0
+    return float(u / (n_pos * n_neg))
+
+
+def _bimodality_score(vals, bins=36):
+    vals = np.asarray(vals, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if len(vals) < bins:
+        return np.nan, np.nan, np.nan
+
+    vmin, vmax = np.percentile(vals, [1, 99])
+    if vmax <= vmin:
+        return np.nan, np.nan, np.nan
+    clipped = np.clip(vals, vmin, vmax)
+
+    hist, _ = np.histogram(clipped, bins=bins, range=(vmin, vmax), density=True)
+    if np.all(hist <= 0):
+        return np.nan, np.nan, np.nan
+
+    peak_idx = [i for i in range(1, bins - 1) if hist[i] >= hist[i - 1] and hist[i] >= hist[i + 1]]
+    if len(peak_idx) < 2:
+        return 0.0, 0.0, 0.0
+
+    best = (0.0, 0.0, 0.0)  # valley_depth, peak_dist, objective
+    for i in range(len(peak_idx)):
+        for j in range(i + 1, len(peak_idx)):
+            a = peak_idx[i]
+            b = peak_idx[j]
+            if b - a < 3:
+                continue
+            valley = np.min(hist[a:b + 1])
+            peak_h = max(hist[a], hist[b], 1e-8)
+            valley_depth = float(np.clip((min(hist[a], hist[b]) - valley) / peak_h, 0, 1))
+            peak_dist = float((b - a) / (bins - 1))
+            objective = valley_depth * peak_dist
+            if objective > best[2]:
+                best = (valley_depth, peak_dist, objective)
+
+    valley_depth, peak_dist, _ = best
+    score = float(np.clip(0.6 * valley_depth + 0.4 * peak_dist, 0, 1))
+    return score, valley_depth, peak_dist
+
+
+def analyze_experimental_distributions(all_results, output_dir):
+    """Rank experimental metrics by bimodality + speckle separation and plot top candidates."""
+    output_dir = Path(output_dir)
+    output_dir.mkdir(exist_ok=True, parents=True)
+
+    all_rows = [r for rows in all_results.values() for r in rows]
+    if not all_rows:
+        return []
+
+    sap = np.array([r['speckle_area_pct'] for r in all_rows], dtype=float)
+    nonzero = sap > 0
+    p75 = np.percentile(sap, 75)
+    high_speckle = sap > p75
+    # Fallback if p75 is degenerate (e.g., many zeros).
+    if np.sum(high_speckle) == 0 or np.sum(~high_speckle) == 0:
+        order = np.argsort(sap)
+        high_speckle = np.zeros(len(sap), dtype=bool)
+        high_speckle[order[int(0.75 * len(sap)):]] = True
+
+    exp_keys = sorted([
+        k for k in all_rows[0].keys()
+        if k.startswith('exp_') and isinstance(all_rows[0][k], (int, float))
+    ])
+
+    ranking = []
+    for key in exp_keys:
+        vals = np.array([r.get(key, np.nan) for r in all_rows], dtype=float)
+        valid = np.isfinite(vals) & np.isfinite(sap)
+        if np.sum(valid) < 20:
+            continue
+
+        x = vals[valid]
+        nz = nonzero[valid]
+        hs = high_speckle[valid]
+
+        bimodal, valley, peak_dist = _bimodality_score(x)
+        auc_nz = _binary_auc(nz, x)
+        auc_hs = _binary_auc(hs, x)
+        auc_nz_skill = np.nan if np.isnan(auc_nz) else abs(auc_nz - 0.5) * 2.0
+        auc_hs_skill = np.nan if np.isnan(auc_hs) else abs(auc_hs - 0.5) * 2.0
+
+        parts = [bimodal if not np.isnan(bimodal) else 0.0]
+        parts.append(auc_nz_skill if not np.isnan(auc_nz_skill) else 0.0)
+        parts.append(auc_hs_skill if not np.isnan(auc_hs_skill) else 0.0)
+        combined = float(np.clip(0.55 * parts[0] + 0.25 * parts[1] + 0.20 * parts[2], 0, 1))
+
+        ranking.append({
+            'metric': key,
+            'combined_score': combined,
+            'bimodality_score': float(0 if np.isnan(bimodal) else bimodal),
+            'valley_depth': float(0 if np.isnan(valley) else valley),
+            'peak_distance': float(0 if np.isnan(peak_dist) else peak_dist),
+            'auc_nonzero': float(np.nan if np.isnan(auc_nz) else auc_nz),
+            'auc_high_speckle': float(np.nan if np.isnan(auc_hs) else auc_hs),
+            'n': int(np.sum(valid)),
+        })
+
+    ranking.sort(key=lambda r: (-r['combined_score'], -r['bimodality_score'], r['metric']))
+    if not ranking:
+        return []
+
+    # Save ranking table
+    csv_path = output_dir / 'experimental_bimodality_ranking.csv'
+    with open(csv_path, 'w') as f:
+        header = [
+            'metric', 'combined_score', 'bimodality_score', 'valley_depth',
+            'peak_distance', 'auc_nonzero', 'auc_high_speckle', 'n'
+        ]
+        f.write(','.join(header) + '\n')
+        for r in ranking:
+            f.write(
+                f"{r['metric']},{r['combined_score']:.6f},{r['bimodality_score']:.6f},"
+                f"{r['valley_depth']:.6f},{r['peak_distance']:.6f},"
+                f"{r['auc_nonzero']:.6f},{r['auc_high_speckle']:.6f},{r['n']}\n"
+            )
+    print(f"  Saved: {csv_path.name}")
+
+    # Plot top metrics as pooled histograms split by low/high speckle.
+    top = ranking[:8]
+    n_top = len(top)
+    rows = 2
+    cols = 4
+    fig, axes = plt.subplots(rows, cols, figsize=(20, 9))
+    fig.suptitle('Experimental Distribution Sweep: Top Bimodal Candidates', fontsize=15, fontweight='bold')
+
+    for i, item in enumerate(top):
+        ax = axes.flat[i]
+        key = item['metric']
+        vals = np.array([r.get(key, np.nan) for r in all_rows], dtype=float)
+        valid = np.isfinite(vals) & np.isfinite(sap)
+        x = vals[valid]
+        hs = high_speckle[valid]
+        if np.sum(valid) > 0:
+            if np.sum(~hs) > 0:
+                ax.hist(x[~hs], bins=30, alpha=0.55, color='#1976D2', density=True, label='Low speckle')
+            if np.sum(hs) > 0:
+                ax.hist(x[hs], bins=30, alpha=0.50, color='#d32f2f', density=True, label='High speckle')
+        ax.set_title(
+            f"{key}\nscore={item['combined_score']:.3f}, bi={item['bimodality_score']:.3f}",
+            fontsize=9
+        )
+        ax.grid(True, axis='y', alpha=0.3)
+        if i == 0:
+            ax.legend(fontsize=8)
+
+    for j in range(n_top, rows * cols):
+        axes.flat[j].axis('off')
+
+    plt.tight_layout(rect=[0, 0, 1, 0.93])
+    save_path = output_dir / 'experimental_bimodal_distributions.png'
+    plt.savefig(save_path, dpi=150, bbox_inches='tight', facecolor='white')
+    plt.close()
+    print(f"  Saved: {save_path.name}")
+    return ranking
 
 
 def plot_fdi_focus(all_results, output_dir, calibration_info):
@@ -627,6 +860,17 @@ if __name__ == '__main__':
         calibration_info = calibrate_fdi(all_results)
         print(f"\nGenerating focused visual outputs...")
         plot_fdi_focus(all_results, OUTPUT_DIR, calibration_info)
+        print(f"\nRunning experimental distribution sweep...")
+        ranking = analyze_experimental_distributions(all_results, OUTPUT_DIR)
+        if ranking:
+            print("\nTop experimental distributions by bimodality/separation:")
+            for i, row in enumerate(ranking[:8], start=1):
+                print(
+                    f"  {i}. {row['metric']}: score={row['combined_score']:.3f}, "
+                    f"bimodal={row['bimodality_score']:.3f}, "
+                    f"AUC(nonzero)={row['auc_nonzero']:.3f}, "
+                    f"AUC(high-speckle)={row['auc_high_speckle']:.3f}"
+                )
 
     print(f"\nAll figures saved to: {OUTPUT_DIR}")
     print("Done!")
