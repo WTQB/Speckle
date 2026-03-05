@@ -364,6 +364,17 @@ def get_metric_pixel_distribution(img_rgb, metric_key):
     return (b / (g + eps)).ravel(), 'Blue/Green pixel ratio'
 
 
+def load_display_image(scan_dir):
+    """Load display image for visual comparison panels."""
+    master = scan_dir / 'server_data' / 'frame_master.yellow.png'
+    if master.exists():
+        return np.array(Image.open(master))[:, :, :3]
+    yellow_imgs = load_yellow_images(scan_dir)
+    if yellow_imgs:
+        return (yellow_imgs[-1][1] * 255).astype(np.uint8)
+    return None
+
+
 def compute_fdi(scan_dir):
     """Compute Flash Disruption Index for a scan directory.
 
@@ -857,6 +868,149 @@ def analyze_experimental_distributions(all_results, output_dir):
     return ranking
 
 
+def plot_best_metric_dashboard(all_results, ranking, output_dir):
+    """Create dashboard for current best metric with visual comparison as primary focus."""
+    if not ranking:
+        return
+
+    output_dir = Path(output_dir)
+    output_dir.mkdir(exist_ok=True, parents=True)
+
+    best = ranking[0]
+    metric = best['metric']
+    thr = best['threshold']
+    all_rows = [r for rows in all_results.values() for r in rows]
+    if not all_rows:
+        return
+
+    vals = np.array([r.get(metric, np.nan) for r in all_rows], dtype=float)
+    valid_idx = np.where(np.isfinite(vals))[0]
+    if len(valid_idx) < 8:
+        return
+    rows_v = [all_rows[i] for i in valid_idx]
+    x = vals[valid_idx]
+    high = x > thr
+
+    low_idx = np.where(~high)[0]
+    high_idx = np.where(high)[0]
+    order_low = low_idx[np.argsort(x[low_idx])] if len(low_idx) > 0 else np.array([], dtype=int)
+    order_high = high_idx[np.argsort(x[high_idx])] if len(high_idx) > 0 else np.array([], dtype=int)
+
+    picks = []
+    if len(order_low) >= 2 and len(order_high) >= 2:
+        picks = [
+            rows_v[order_low[0]],
+            rows_v[order_low[max(0, len(order_low) - 1)]],
+            rows_v[order_high[0]],
+            rows_v[order_high[-1]],
+        ]
+    else:
+        order = np.argsort(x)
+        q_idx = [0, len(order) // 3, 2 * len(order) // 3, len(order) - 1]
+        picks = [rows_v[order[i]] for i in q_idx]
+
+    fig, axes = plt.subplots(3, 4, figsize=(22, 14))
+    fig.suptitle(f'Best Metric Dashboard: {metric}', fontsize=16, fontweight='bold')
+
+    # Top row: diagnostics
+    ax = axes[0, 0]
+    ax.hist(x[~high], bins=30, color='#1976D2', alpha=0.6, label='Low cluster')
+    ax.hist(x[high], bins=30, color='#d32f2f', alpha=0.5, label='High cluster')
+    ax.axvline(thr, color='black', linestyle='--', linewidth=1.2, label='Threshold')
+    ax.set_title('Metric Distribution')
+    ax.set_xlabel(metric)
+    ax.set_ylabel('Count')
+    ax.legend(fontsize=8)
+    ax.grid(True, axis='y', alpha=0.3)
+
+    ax = axes[0, 1]
+    tag_ids = sorted(all_results.keys())
+    rates = []
+    for tag in tag_ids:
+        tv = np.array([r.get(metric, np.nan) for r in all_results[tag]], dtype=float)
+        tv = tv[np.isfinite(tv)]
+        if len(tv) == 0:
+            rates.append(0.0)
+        else:
+            rates.append(float(np.mean(tv > thr)))
+    ax.bar(np.arange(len(tag_ids)), rates, color='#455A64', edgecolor='black', linewidth=0.5)
+    ax.set_xticks(np.arange(len(tag_ids)))
+    ax.set_xticklabels(tag_ids, rotation=45, ha='right', fontsize=8)
+    ax.set_ylim(0, 1.0)
+    ax.set_ylabel('High-cluster fraction')
+    ax.set_title('Cluster Fraction by Tag')
+    ax.grid(True, axis='y', alpha=0.3)
+
+    ax = axes[0, 2]
+    fdi = np.array([r['fdi'] for r in rows_v], dtype=float)
+    ax.scatter(x, fdi, s=12, alpha=0.4, color='#6A1B9A')
+    ax.axvline(thr, color='black', linestyle='--', linewidth=1)
+    ax.set_xlabel(metric)
+    ax.set_ylabel('FDI')
+    ax.set_title('Metric vs FDI (diagnostic)')
+    ax.grid(True, alpha=0.3)
+
+    ax = axes[0, 3]
+    sap = np.array([r['speckle_area_pct'] for r in rows_v], dtype=float)
+    ax.scatter(x, sap, s=12, alpha=0.4, color='#2E7D32')
+    ax.axvline(thr, color='black', linestyle='--', linewidth=1)
+    ax.set_xlabel(metric)
+    ax.set_ylabel('Speckle Area (%)')
+    ax.set_title('Metric vs Speckle (diagnostic)')
+    ax.grid(True, alpha=0.3)
+
+    # Middle row: visual comparisons
+    for col, r in enumerate(picks):
+        img = load_display_image(r['scan_dir'])
+        ax = axes[1, col]
+        if img is not None:
+            ax.imshow(img)
+        mval = r.get(metric, np.nan)
+        cluster = 'HIGH' if mval > thr else 'LOW'
+        ax.set_title(
+            f"{r['tag_id']} | {cluster}\n{metric}={mval:.3f}\nFDI={r['fdi']:.3f}, Speckle={r['speckle_area_pct']:.3f}%",
+            fontsize=8, fontweight='bold'
+        )
+        ax.set_xticks([])
+        ax.set_yticks([])
+
+    # Bottom row: metric-specific pixel distributions with shared y-axis
+    y_max = 0.0
+    cached = []
+    for r in picks:
+        yellow_imgs = load_yellow_images(r['scan_dir'])
+        if yellow_imgs:
+            _, hi = yellow_imgs[-1]
+            dist, xlabel = get_metric_pixel_distribution(hi, metric)
+            cached.append((dist, xlabel))
+        else:
+            cached.append((None, 'Pixel distribution'))
+
+    for col, (dist, xlabel) in enumerate(cached):
+        ax = axes[2, col]
+        if dist is not None:
+            counts, _, _ = ax.hist(dist, bins=30, color='#1976D2', alpha=0.75, edgecolor='black', linewidth=0.3)
+            if len(counts) > 0:
+                y_max = max(y_max, float(np.max(counts)))
+            ax.axvline(np.median(dist), color='red', linestyle='--', linewidth=1)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel('Count' if col == 0 else '')
+        ax.grid(True, axis='y', alpha=0.3)
+
+    if y_max > 0:
+        for col in range(4):
+            axes[2, col].set_ylim(0, y_max * 1.08)
+
+    axes[1, 0].set_ylabel('Image', fontsize=10)
+    axes[2, 0].set_ylabel('Histogram', fontsize=10)
+
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    save_path = output_dir / 'best_metric_dashboard.png'
+    plt.savefig(save_path, dpi=150, bbox_inches='tight', facecolor='white')
+    plt.close()
+    print(f"  Saved: {save_path.name}")
+
+
 def plot_fdi_focus(all_results, output_dir, calibration_info):
     """Generate focused outputs: histogram trends + visual comparison."""
     output_dir = Path(output_dir)
@@ -1096,6 +1250,7 @@ if __name__ == '__main__':
         print(f"\nRunning experimental distribution sweep...")
         ranking = analyze_experimental_distributions(all_results, OUTPUT_DIR)
         if ranking:
+            plot_best_metric_dashboard(all_results, ranking, OUTPUT_DIR)
             print("\nTop experimental distributions by bimodality/separation:")
             for i, row in enumerate(ranking[:8], start=1):
                 print(
