@@ -1,0 +1,5816 @@
+{
+  "exported_at" : "2026-02-26T10:19:04Z",
+  "positions" : [
+    {
+      "capture_time_seconds" : 12.859372973442078,
+      "height_mm" : 110,
+      "index" : 0,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 936.6906180075603,
+        "request_id" : "fb275968-0ede-46a4-86b3-dcc1bc7841a1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.045835514,
+      "timestamp" : "2026-02-26T09:36:49Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.407693028450012,
+      "height_mm" : 110,
+      "index" : 1,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 97.85220700723585,
+        "request_id" : "c94c8359-525a-421d-947c-8149348f607d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09117551,
+      "timestamp" : "2026-02-26T09:36:58Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.166038036346436,
+      "height_mm" : 110,
+      "index" : 2,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 39.02841701346915,
+        "request_id" : "71e24c85-bb14-4693-aa1a-4a9495a8bfeb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.19096942,
+      "timestamp" : "2026-02-26T09:37:06Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.204035997390747,
+      "height_mm" : 110,
+      "index" : 3,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 48.09258499881253,
+        "request_id" : "03a774ca-aae7-4c35-bda0-11fc2d7c8bfe",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:37:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.9141480922698975,
+      "height_mm" : 110,
+      "index" : 4,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.638621992082335,
+        "request_id" : "081f9377-39b2-480e-8d4f-99bbe74067e0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:37:22Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.982643961906433,
+      "height_mm" : 110,
+      "index" : 5,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.69050799543038,
+        "request_id" : "6dd56356-7615-4e6b-95fb-d67b50753940",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:37:31Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.584205031394958,
+      "height_mm" : 110,
+      "index" : 6,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.44249300425872,
+        "request_id" : "2bdcdecc-d595-47b3-aec4-8be5a5d4c1e1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:37:39Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.77237606048584,
+      "height_mm" : 110,
+      "index" : 7,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.01917499629781,
+        "request_id" : "3b3c47fe-5ba6-4a42-9f15-91327719eb6c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.04230669,
+      "timestamp" : "2026-02-26T09:37:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.996825098991394,
+      "height_mm" : 110,
+      "index" : 8,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.015164000564255,
+        "request_id" : "2f8bb2d6-9dc1-46e8-90e1-2b99c29984c3",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:37:57Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.776504039764404,
+      "height_mm" : 110,
+      "index" : 9,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.66361699346453,
+        "request_id" : "57649269-684f-47f7-9bdb-315924442c86",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.051759835,
+      "timestamp" : "2026-02-26T09:38:06Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.72262191772461,
+      "height_mm" : 110,
+      "index" : 10,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.749891000799835,
+        "request_id" : "f935e5b0-79ed-451a-9656-0ca2fb75541f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:38:15Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.47069001197815,
+      "height_mm" : 110,
+      "index" : 11,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.08612200128846,
+        "request_id" : "a65f528d-09ac-40a5-ae36-65e6dbc66abb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:38:23Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.39992904663086,
+      "height_mm" : 110,
+      "index" : 12,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.24958099820651,
+        "request_id" : "acf103c4-c4e7-47ee-8796-a109f0991619",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.05235431,
+      "timestamp" : "2026-02-26T09:38:32Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.697666049003601,
+      "height_mm" : 110,
+      "index" : 13,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.180967000778764,
+        "request_id" : "d3959010-38f5-4776-b6ca-42f8c4c82447",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:38:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.687940955162048,
+      "height_mm" : 110,
+      "index" : 14,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.697907999623567,
+        "request_id" : "94d2e061-7300-43f0-92fc-22fc1132933c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03905233,
+      "timestamp" : "2026-02-26T09:38:49Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.185956001281738,
+      "height_mm" : 110,
+      "index" : 15,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03597593,
+      "timestamp" : "2026-02-26T09:38:57Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 9.136144995689392,
+      "height_mm" : 110,
+      "index" : 16,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.05947399570141,
+        "request_id" : "bc116164-36e4-4c5e-9e45-24237e894781",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09386632,
+      "timestamp" : "2026-02-26T09:39:06Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.14605700969696,
+      "height_mm" : 110,
+      "index" : 17,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.932752997614443,
+        "request_id" : "390ac906-6d63-42cd-b35b-0db4bddf52e0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:39:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.655670046806335,
+      "height_mm" : 110,
+      "index" : 18,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.96426100737881,
+        "request_id" : "ac7793c5-7823-4955-a8d0-ad4390443d44",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.07120894,
+      "timestamp" : "2026-02-26T09:39:23Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 9.470723032951355,
+      "height_mm" : 110,
+      "index" : 19,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.14633399550803,
+        "request_id" : "d216a498-b66f-4511-9e16-7b73c6bd8e82",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:39:33Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.869266986846924,
+      "height_mm" : 110,
+      "index" : 20,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.781696997815743,
+        "request_id" : "c262ef18-fcb2-47b9-bbde-3e37c73f578e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032938078,
+      "timestamp" : "2026-02-26T09:39:41Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.6728620529174805,
+      "height_mm" : 110,
+      "index" : 21,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-02-26T09:39:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.871258020401001,
+      "height_mm" : 110,
+      "index" : 22,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:39:56Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.194064021110535,
+      "height_mm" : 110,
+      "index" : 23,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 75.28523799555842,
+        "request_id" : "ad37a47b-7efa-4d76-9727-97143d7d18b8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:40:04Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 9.006219029426575,
+      "height_mm" : 110,
+      "index" : 24,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 42.587221003486775,
+        "request_id" : "300fe007-046b-4426-992f-815ac42b8820",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.16174948,
+      "timestamp" : "2026-02-26T09:40:13Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 9.253450989723206,
+      "height_mm" : 110,
+      "index" : 25,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.69074300280772,
+        "request_id" : "5323ce10-2614-428d-b21b-c39b1f3c2959",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.3461439,
+      "timestamp" : "2026-02-26T09:40:22Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.999929070472717,
+      "height_mm" : 110,
+      "index" : 26,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.345579000306316,
+        "request_id" : "60a46d5e-4e2a-4248-b6fa-16c7db152285",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.10351967,
+      "timestamp" : "2026-02-26T09:40:31Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.572558999061584,
+      "height_mm" : 110,
+      "index" : 27,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.534752999898046,
+        "request_id" : "a746e996-c3b6-4b0c-aeb9-d5e2f890765a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08043758,
+      "timestamp" : "2026-02-26T09:40:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.256716966629028,
+      "height_mm" : 110,
+      "index" : 28,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.389671001699753,
+        "request_id" : "82ccfd46-a4d0-45b4-b006-696f0840fe3e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.048237715,
+      "timestamp" : "2026-02-26T09:40:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.580798029899597,
+      "height_mm" : 110,
+      "index" : 29,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.912293003173545,
+        "request_id" : "a1174f3c-89df-487b-a6b0-a0b711abca7d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:40:57Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.517285943031311,
+      "height_mm" : 110,
+      "index" : 30,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.825431996257976,
+        "request_id" : "65c74d2a-332a-4d0f-988c-e8f991fd60ea",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13433552,
+      "timestamp" : "2026-02-26T09:41:05Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.896797060966492,
+      "height_mm" : 110,
+      "index" : 31,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.785205995314755,
+        "request_id" : "9caf7773-92f9-4cbb-97f1-0b10e62723d3",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.36860996,
+      "timestamp" : "2026-02-26T09:41:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.62718403339386,
+      "height_mm" : 110,
+      "index" : 32,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.024404004914686,
+        "request_id" : "3377a40f-e6fa-432b-af8a-970e153c8f48",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.41004947,
+      "timestamp" : "2026-02-26T09:41:23Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.113934993743896,
+      "height_mm" : 110,
+      "index" : 33,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.27351300220471,
+        "request_id" : "acc0bcbc-1321-4987-9307-d44f27265935",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:41:31Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.494258046150208,
+      "height_mm" : 110,
+      "index" : 34,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.661884002853185,
+        "request_id" : "dec3285e-e153-4bdc-8b00-00b8b16ba47f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:41:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.454864978790283,
+      "height_mm" : 110,
+      "index" : 35,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.62650599470362,
+        "request_id" : "de586f3e-6be8-42c8-8527-079c8d9211a7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:41:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.78776204586029,
+      "height_mm" : 110,
+      "index" : 36,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.330342006171122,
+        "request_id" : "9f03e229-5245-4a5d-9173-d4edafd71106",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:41:57Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.064962983131409,
+      "height_mm" : 110,
+      "index" : 37,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.21033000468742,
+        "request_id" : "58639da9-b82b-40fb-a29c-2200287c8297",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06143499,
+      "timestamp" : "2026-02-26T09:42:06Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.732251048088074,
+      "height_mm" : 110,
+      "index" : 38,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.26517299481202,
+        "request_id" : "d6f01616-2135-48d3-8b85-f7f0c0c35490",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.1607924,
+      "timestamp" : "2026-02-26T09:42:15Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.874364972114563,
+      "height_mm" : 110,
+      "index" : 39,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.358708993531764,
+        "request_id" : "d8fd5d7c-61b2-4cb0-bc58-360eeb1b1469",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:42:23Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.265092968940735,
+      "height_mm" : 110,
+      "index" : 40,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.337894002906978,
+        "request_id" : "34b4c2db-f991-42aa-828a-91c366df67cb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:42:32Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.605056047439575,
+      "height_mm" : 110,
+      "index" : 41,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.49715298623778,
+        "request_id" : "2e80b8b8-c6b6-42fc-b8b4-36a2f0e20ad6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:42:40Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.095214009284973,
+      "height_mm" : 110,
+      "index" : 42,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.717747994349338,
+        "request_id" : "238b79fe-22c3-4f73-8af1-66ec573d7b7f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:42:49Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.200729012489319,
+      "height_mm" : 110,
+      "index" : 43,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.533727010246366,
+        "request_id" : "906a1af4-f07e-40f1-b953-2eb4859de97b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.15114485,
+      "timestamp" : "2026-02-26T09:42:59Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.812209010124207,
+      "height_mm" : 110,
+      "index" : 44,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.041096005239524,
+        "request_id" : "04010007-62e6-4e14-8d45-37a0e94867e7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.23899947,
+      "timestamp" : "2026-02-26T09:43:07Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.614207983016968,
+      "height_mm" : 110,
+      "index" : 45,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.17373900709208,
+        "request_id" : "2feda162-f3fe-4672-a82a-5520d68bfbe7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08043758,
+      "timestamp" : "2026-02-26T09:43:16Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.612099051475525,
+      "height_mm" : 110,
+      "index" : 46,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.591237004031427,
+        "request_id" : "d4389139-8e36-4137-983e-1c107e47b8de",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:43:25Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.441918015480042,
+      "height_mm" : 110,
+      "index" : 47,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.20541799964849,
+        "request_id" : "425bc4e4-d036-43a0-895e-5ff0b0445fe5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:43:33Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.124917984008789,
+      "height_mm" : 110,
+      "index" : 48,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.56964199722279,
+        "request_id" : "e53272ad-bd09-4d72-bc66-d82c050cbc2a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.051788315,
+      "timestamp" : "2026-02-26T09:43:42Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.768730998039246,
+      "height_mm" : 110,
+      "index" : 49,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.8260260024108,
+        "request_id" : "ebe1bfbb-4caa-40d1-ae28-27da826dcb0f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:43:51Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.933006048202515,
+      "height_mm" : 110,
+      "index" : 50,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.291294999187812,
+        "request_id" : "79f79069-1f6b-464d-b4ad-bb4e17752eb5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0997426,
+      "timestamp" : "2026-02-26T09:44:00Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.320706963539124,
+      "height_mm" : 110,
+      "index" : 51,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.45140801218804,
+        "request_id" : "4f919078-f7d6-43e5-bb94-1af6f84241de",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.19305019,
+      "timestamp" : "2026-02-26T09:44:09Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.603991985321045,
+      "height_mm" : 110,
+      "index" : 52,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.68461400794331,
+        "request_id" : "e258ee00-e136-42c3-b429-b75b63304b01",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09821897,
+      "timestamp" : "2026-02-26T09:44:19Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.746245980262756,
+      "height_mm" : 110,
+      "index" : 53,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.732558995718136,
+        "request_id" : "1390ede4-2e45-4783-a3d7-ef23bf6bbde4",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025726782,
+      "timestamp" : "2026-02-26T09:44:28Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.226402997970581,
+      "height_mm" : 110,
+      "index" : 54,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.706000996753573,
+        "request_id" : "eda37902-2d0a-4f6a-a3d8-1876d010f9fe",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:44:37Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.245491027832031,
+      "height_mm" : 110,
+      "index" : 55,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.59629899810534,
+        "request_id" : "457122b5-e571-4b22-a2fb-fd4f195b9b7f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:44:46Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.437997937202454,
+      "height_mm" : 110,
+      "index" : 56,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.214972996152937,
+        "request_id" : "6e28e64f-3c29-453f-bd87-15604e4e860f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09004374,
+      "timestamp" : "2026-02-26T09:44:56Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 6.74905002117157,
+      "height_mm" : 110,
+      "index" : 57,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_uid"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "No Q-ID tag payload available from QR code",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-02-26T09:45:02Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.741517066955566,
+      "height_mm" : 110,
+      "index" : 58,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.525671991403215,
+        "request_id" : "ad1105f8-dc2f-4dcb-a671-88507bcf4778",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.17478557,
+      "timestamp" : "2026-02-26T09:45:11Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.511914014816284,
+      "height_mm" : 110,
+      "index" : 59,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.910198995727114,
+        "request_id" : "95303649-49a2-48c5-abd2-a0f747f1ed87",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:45:20Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.130124926567078,
+      "height_mm" : 110,
+      "index" : 60,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.84091000223998,
+        "request_id" : "56b08737-0bd8-48be-89ab-91177521d19a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.19938257,
+      "timestamp" : "2026-02-26T09:45:29Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.809934973716736,
+      "height_mm" : 110,
+      "index" : 61,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.381562008173205,
+        "request_id" : "ff35d859-6332-4a6f-b290-73f70da14780",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.26048365,
+      "timestamp" : "2026-02-26T09:45:37Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.582908987998962,
+      "height_mm" : 110,
+      "index" : 62,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.01532100723125,
+        "request_id" : "3c283ebf-77bb-427d-8613-4016d888af84",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.19938257,
+      "timestamp" : "2026-02-26T09:45:46Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.484042048454285,
+      "height_mm" : 110,
+      "index" : 63,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.934535998501815,
+        "request_id" : "dd8ab257-da56-4493-a9c4-ba7818dc5e2a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.18661518,
+      "timestamp" : "2026-02-26T09:45:55Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.892031073570251,
+      "height_mm" : 110,
+      "index" : 64,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.42419699986931,
+        "request_id" : "29c02b95-6396-4074-811e-7c7a75c22e89",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.11255466,
+      "timestamp" : "2026-02-26T09:46:03Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.415658950805664,
+      "height_mm" : 110,
+      "index" : 65,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.88080200541299,
+        "request_id" : "2f749367-d97c-4733-93c8-ea1360622973",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:46:12Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 9.045778036117554,
+      "height_mm" : 110,
+      "index" : 66,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.228294991189614,
+        "request_id" : "ee2afb06-f831-4619-bb9c-73972274b841",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13113706,
+      "timestamp" : "2026-02-26T09:46:21Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.956856966018677,
+      "height_mm" : 110,
+      "index" : 67,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 351.3265899964608,
+        "request_id" : "2d3099a0-e8bd-487f-953d-37240bf3de67",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.34749034,
+      "timestamp" : "2026-02-26T09:46:30Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 11.649001002311707,
+      "height_mm" : 110,
+      "index" : 68,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 1457.4715250055306,
+        "request_id" : "6c2896b2-63c9-4d9f-8350-f3743e6756e5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.36899176,
+      "timestamp" : "2026-02-26T09:46:41Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 11.91394305229187,
+      "height_mm" : 110,
+      "index" : 69,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 1770.2310559980106,
+        "request_id" : "68180b74-2244-4c57-8d19-6884072c85b0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:46:53Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 11.3819260597229,
+      "height_mm" : 110,
+      "index" : 70,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 963.3057659957558,
+        "request_id" : "fd7bcb0d-2145-4425-9884-c45ee893f3a0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:47:05Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 10.625223994255066,
+      "height_mm" : 110,
+      "index" : 71,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 1379.1655490058474,
+        "request_id" : "df2ed8a6-a137-42a9-8ab6-d3697f60cc2b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:47:15Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 10.55251693725586,
+      "height_mm" : 110,
+      "index" : 72,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 808.2212510053068,
+        "request_id" : "a05c025a-6ddb-4551-8ae9-10902c881c3d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:47:26Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.574205994606018,
+      "height_mm" : 110,
+      "index" : 73,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 187.34616300207563,
+        "request_id" : "fa517339-c149-405f-85c9-2eadf9d67467",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.10078678,
+      "timestamp" : "2026-02-26T09:47:36Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.56618595123291,
+      "height_mm" : 110,
+      "index" : 74,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.038001011125743,
+        "request_id" : "c3affca0-57dc-45bd-b4b8-1b6f963a720d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.18973503,
+      "timestamp" : "2026-02-26T09:47:44Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.718057036399841,
+      "height_mm" : 110,
+      "index" : 75,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.838795994990505,
+        "request_id" : "e06db5a6-f004-4214-b0f9-dadf1f5f4c36",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:47:53Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.83837103843689,
+      "height_mm" : 110,
+      "index" : 76,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 121.90811599430162,
+        "request_id" : "afaf22fb-ca33-4708-9b52-c1310e9fcf05",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:48:02Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.011822938919067,
+      "height_mm" : 110,
+      "index" : 77,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.645811008871533,
+        "request_id" : "6bcc884d-dda4-4c59-9456-cbe12c31c371",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:48:11Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.208615064620972,
+      "height_mm" : 110,
+      "index" : 78,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.66520500194747,
+        "request_id" : "e847d649-ec2f-471b-be71-ff5a5eb6ab71",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.031984646,
+      "timestamp" : "2026-02-26T09:48:20Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.194186925888062,
+      "height_mm" : 110,
+      "index" : 79,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.21567300229799,
+        "request_id" : "13821326-f6f6-4703-b276-d08bb61853eb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.15304461,
+      "timestamp" : "2026-02-26T09:48:29Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.296751022338867,
+      "height_mm" : 110,
+      "index" : 80,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.47259400994517,
+        "request_id" : "b636e920-f2ba-4066-a131-ead92bbfe82d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.31193724,
+      "timestamp" : "2026-02-26T09:48:38Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.568530082702637,
+      "height_mm" : 110,
+      "index" : 81,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.6938020021189,
+        "request_id" : "aece1aad-f65e-4d86-baa1-96257b3f9e4b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06431696,
+      "timestamp" : "2026-02-26T09:48:47Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.912114977836609,
+      "height_mm" : 110,
+      "index" : 82,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 18.233402995974757,
+        "request_id" : "d43be20c-0846-443f-99f0-56e1368bfef5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025726782,
+      "timestamp" : "2026-02-26T09:48:56Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.586181998252869,
+      "height_mm" : 110,
+      "index" : 83,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 20.46413799689617,
+        "request_id" : "36038087-ae00-4715-bd6d-f73c1490a204",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:49:04Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.023510932922363,
+      "height_mm" : 110,
+      "index" : 84,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.934964001062326,
+        "request_id" : "3afb4b9f-c91e-4534-b2db-49889e94570c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.2027027,
+      "timestamp" : "2026-02-26T09:49:13Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.6265389919281,
+      "height_mm" : 110,
+      "index" : 85,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.56392100045923,
+        "request_id" : "c9851f89-13ab-45ad-98ef-4e8229563253",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:49:22Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.9715739488601685,
+      "height_mm" : 110,
+      "index" : 86,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.078015009872615,
+        "request_id" : "3cc29a51-094c-490d-a5a4-f9e3e91a87a2",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.04884403,
+      "timestamp" : "2026-02-26T09:49:30Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.580558061599731,
+      "height_mm" : 110,
+      "index" : 87,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.717221004422754,
+        "request_id" : "c4de2d80-96b3-4c8a-9cdf-c3f606cebf47",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.24762028,
+      "timestamp" : "2026-02-26T09:49:39Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.293866038322449,
+      "height_mm" : 110,
+      "index" : 88,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.640640994533896,
+        "request_id" : "2ff9faf4-a5f3-445a-b321-7a670035077c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.035392538,
+      "timestamp" : "2026-02-26T09:49:48Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.60212504863739,
+      "height_mm" : 110,
+      "index" : 89,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.14234100433532,
+        "request_id" : "af313852-e275-4f19-be7d-fc0c918eac4d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.035567626,
+      "timestamp" : "2026-02-26T09:49:57Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.785529017448425,
+      "height_mm" : 110,
+      "index" : 90,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 39.32940600498114,
+        "request_id" : "5b1a603d-8fe2-475d-a621-3ef68f90ebac",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09647543,
+      "timestamp" : "2026-02-26T09:50:05Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.224884986877441,
+      "height_mm" : 110,
+      "index" : 91,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 42.79108998889569,
+        "request_id" : "d0054c3b-189c-4d41-bdb8-7cb5220dcc48",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:50:15Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.756410002708435,
+      "height_mm" : 110,
+      "index" : 92,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.663284989306703,
+        "request_id" : "e259958e-b1dc-4bdb-a7d5-b43aa6ddf675",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:50:23Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.754500985145569,
+      "height_mm" : 110,
+      "index" : 93,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.2522068,
+      "timestamp" : "2026-02-26T09:50:32Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 6.129076957702637,
+      "height_mm" : 110,
+      "index" : 94,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-02-26T09:50:38Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.59423291683197,
+      "height_mm" : 110,
+      "index" : 95,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.703797996859066,
+        "request_id" : "6f1ea029-340a-4eab-8527-0058c2dc8f3d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:50:47Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.864691019058228,
+      "height_mm" : 110,
+      "index" : 96,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.725912994355895,
+        "request_id" : "5efa8bf0-1b89-4408-a783-e62579e979a8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.26491365,
+      "timestamp" : "2026-02-26T09:50:56Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.892909049987793,
+      "height_mm" : 110,
+      "index" : 97,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.190312001039274,
+        "request_id" : "9b7e37e9-ac18-4185-933a-5b9677c359be",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03577934,
+      "timestamp" : "2026-02-26T09:51:05Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.018348097801208,
+      "height_mm" : 110,
+      "index" : 98,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.91562399477698,
+        "request_id" : "dce45f15-762b-4dda-b8a6-ca500f7a80c6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0938147,
+      "timestamp" : "2026-02-26T09:51:14Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.139729976654053,
+      "height_mm" : 110,
+      "index" : 99,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.255714001716115,
+        "request_id" : "a9a0bd28-6f41-4b11-892c-1a4b8b2d6317",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.25246805,
+      "timestamp" : "2026-02-26T09:51:22Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.442003965377808,
+      "height_mm" : 110,
+      "index" : 100,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.406513996538706,
+        "request_id" : "996d7d77-f2d3-4530-9241-1dedd2a9fe82",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.105549335,
+      "timestamp" : "2026-02-26T09:51:30Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.811862111091614,
+      "height_mm" : 110,
+      "index" : 101,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.89624500332866,
+        "request_id" : "05d081f3-3837-480d-9153-022ce28620d2",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:51:39Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.602173089981079,
+      "height_mm" : 110,
+      "index" : 102,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.722585999872535,
+        "request_id" : "702c4653-d744-42c5-af24-c6cbfb599683",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.123545095,
+      "timestamp" : "2026-02-26T09:51:48Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.309013962745667,
+      "height_mm" : 110,
+      "index" : 103,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.971573009272106,
+        "request_id" : "b15afcff-8a1f-4c40-8a5e-502274e93afb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.38401458,
+      "timestamp" : "2026-02-26T09:51:57Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.629459023475647,
+      "height_mm" : 110,
+      "index" : 104,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.891476998571306,
+        "request_id" : "bfa43a05-7da1-4f12-91a1-7e899bbc6ee5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.28957528,
+      "timestamp" : "2026-02-26T09:52:05Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.157930970191956,
+      "height_mm" : 110,
+      "index" : 105,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.6516250052955,
+        "request_id" : "2af31a2c-4272-40e2-806d-ec52e74f3085",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.058201574,
+      "timestamp" : "2026-02-26T09:52:15Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.58223807811737,
+      "height_mm" : 110,
+      "index" : 106,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.45813700009603,
+        "request_id" : "f9ab735b-c988-4251-a8ed-99615bcfe6ca",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025715204,
+      "timestamp" : "2026-02-26T09:52:23Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.581199049949646,
+      "height_mm" : 110,
+      "index" : 107,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.520606989739463,
+        "request_id" : "1f27be47-52a4-4a7e-ae11-c16129d78fbd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:52:32Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.890821933746338,
+      "height_mm" : 110,
+      "index" : 108,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.87247900373768,
+        "request_id" : "65ee5179-e600-47ab-bdc3-afac83e9cc81",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:52:41Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.23851990699768,
+      "height_mm" : 110,
+      "index" : 109,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.82289899874013,
+        "request_id" : "3ce0f430-98f4-4f8f-9971-a3f088079357",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:52:50Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.291551947593689,
+      "height_mm" : 110,
+      "index" : 110,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.58186699752696,
+        "request_id" : "9d8b5124-5934-4136-92b0-e8b68e3caf58",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:52:58Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.44285500049591,
+      "height_mm" : 110,
+      "index" : 111,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.26393400633242,
+        "request_id" : "14228111-b283-46c8-a73f-27ba16f7dc96",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:53:07Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.199699997901917,
+      "height_mm" : 110,
+      "index" : 112,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 36.5819470025599,
+        "request_id" : "f0128192-cd6e-4da9-b606-ce74a0f4a8f0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:53:16Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.07770299911499,
+      "height_mm" : 110,
+      "index" : 113,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.40461600094568,
+        "request_id" : "173b2036-fe97-44e4-b97d-543484a6e7ac",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02894263,
+      "timestamp" : "2026-02-26T09:53:25Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.48966097831726,
+      "height_mm" : 110,
+      "index" : 114,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.75330300128553,
+        "request_id" : "e5dbed8c-2a9a-4849-b42c-3274c799cff6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.048237715,
+      "timestamp" : "2026-02-26T09:53:34Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.774559020996094,
+      "height_mm" : 110,
+      "index" : 115,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.654428002075292,
+        "request_id" : "23534e2d-470f-4034-9bb5-fc1863e77a2c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.16087516,
+      "timestamp" : "2026-02-26T09:53:43Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.96134603023529,
+      "height_mm" : 110,
+      "index" : 116,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.534157994319685,
+        "request_id" : "c62228f1-b612-4276-9d2b-0448257e6bac",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.27670527,
+      "timestamp" : "2026-02-26T09:53:52Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.171669960021973,
+      "height_mm" : 110,
+      "index" : 117,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 41.228369998862036,
+        "request_id" : "5905645e-d334-41b7-9c11-c4ff2276d188",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06868132,
+      "timestamp" : "2026-02-26T09:54:01Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.040011048316956,
+      "height_mm" : 110,
+      "index" : 118,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.324466999038123,
+        "request_id" : "c88d6916-544c-4a41-bdcf-e8f3c30ad2a1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:54:10Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.264608979225159,
+      "height_mm" : 110,
+      "index" : 119,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.401584004517645,
+        "request_id" : "d114d1ba-5d3f-4a61-9333-be1398b61d51",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:54:20Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.104862928390503,
+      "height_mm" : 110,
+      "index" : 120,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.62036499916576,
+        "request_id" : "ca46eab5-a44e-4966-9be6-a772860aeb5c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0739645,
+      "timestamp" : "2026-02-26T09:54:29Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.430760979652405,
+      "height_mm" : 110,
+      "index" : 121,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.0449639930157,
+        "request_id" : "f7aebe68-ccf7-4976-a5e4-b9be2cc2ba31",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:54:38Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.972291111946106,
+      "height_mm" : 110,
+      "index" : 122,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.530454997555353,
+        "request_id" : "4f638b4d-2dec-4fbb-a93d-ee9ad0512dfe",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025587719,
+      "timestamp" : "2026-02-26T09:54:46Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.187427997589111,
+      "height_mm" : 110,
+      "index" : 123,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.951691990485415,
+        "request_id" : "6a545320-8d8d-4c32-89f8-9b01bea325df",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.27484077,
+      "timestamp" : "2026-02-26T09:54:54Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.156751990318298,
+      "height_mm" : 110,
+      "index" : 124,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.60827500000596,
+        "request_id" : "05585d31-be3a-40d0-a154-b1c847fafacd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09325958,
+      "timestamp" : "2026-02-26T09:55:03Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.169395089149475,
+      "height_mm" : 110,
+      "index" : 125,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.666266002692282,
+        "request_id" : "36ec8965-eb9e-4ea9-9550-6bbfc6f67bec",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026191724,
+      "timestamp" : "2026-02-26T09:55:12Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.399335980415344,
+      "height_mm" : 110,
+      "index" : 126,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.91036000335589,
+        "request_id" : "2e08af10-c0be-4c6b-a7bb-5f0abe73308e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.081406705,
+      "timestamp" : "2026-02-26T09:55:21Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.22057592868805,
+      "height_mm" : 110,
+      "index" : 127,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.933052999083884,
+        "request_id" : "3a762ea0-d1f0-4fb3-855c-a51d3cddfcbc",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:55:30Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.196753025054932,
+      "height_mm" : 110,
+      "index" : 128,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.56286698929034,
+        "request_id" : "e0e064dc-bc3b-4eb5-9b8d-43194bb1a1cc",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.10612297,
+      "timestamp" : "2026-02-26T09:55:39Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.726270079612732,
+      "height_mm" : 110,
+      "index" : 129,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.18661518,
+      "timestamp" : "2026-02-26T09:55:48Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.421137928962708,
+      "height_mm" : 110,
+      "index" : 130,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:55:58Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.490705013275146,
+      "height_mm" : 110,
+      "index" : 131,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.667171998065896,
+        "request_id" : "9e2ac42d-6bb6-4ff0-bac1-3143bfa466ed",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:56:06Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.671015977859497,
+      "height_mm" : 110,
+      "index" : 132,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.94238300784491,
+        "request_id" : "2176b3f6-af74-4c9d-ab91-57418fe0b66c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.26369953,
+      "timestamp" : "2026-02-26T09:56:16Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 10.638838052749634,
+      "height_mm" : 110,
+      "index" : 133,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.747255000984296,
+        "request_id" : "a9d6871a-aeb9-4925-b63c-7028fa2d2d93",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03215848,
+      "timestamp" : "2026-02-26T09:56:26Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.63755202293396,
+      "height_mm" : 110,
+      "index" : 134,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.428742007235996,
+        "request_id" : "5c4f90a1-adaf-4330-93fa-7bdfe996710b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.2095338,
+      "timestamp" : "2026-02-26T09:56:35Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.196231961250305,
+      "height_mm" : 110,
+      "index" : 135,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.177364001749083,
+        "request_id" : "050546fe-f046-45da-8d3b-bf210fd3406e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.25726783,
+      "timestamp" : "2026-02-26T09:56:43Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.44610595703125,
+      "height_mm" : 110,
+      "index" : 136,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.202449997072108,
+        "request_id" : "3f7a593b-c431-4ee7-8dee-8bd44b113b43",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.14550392,
+      "timestamp" : "2026-02-26T09:56:52Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.950027108192444,
+      "height_mm" : 110,
+      "index" : 137,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.19998299796134,
+        "request_id" : "87001edf-5063-42e1-9733-1f09a5ddd954",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:57:01Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.117466926574707,
+      "height_mm" : 110,
+      "index" : 138,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.167055005207658,
+        "request_id" : "2a5f624c-b057-4e31-808a-6000c58a4f9b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.11514473,
+      "timestamp" : "2026-02-26T09:57:10Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.171846985816956,
+      "height_mm" : 110,
+      "index" : 139,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.69859300437383,
+        "request_id" : "27768794-ec9b-40a5-8940-0a63f6012a57",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.38911757,
+      "timestamp" : "2026-02-26T09:57:19Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.562510967254639,
+      "height_mm" : 110,
+      "index" : 140,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.403351002954878,
+        "request_id" : "cc545bd6-2284-4451-817b-83944365fceb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.32691374,
+      "timestamp" : "2026-02-26T09:57:28Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.696768999099731,
+      "height_mm" : 110,
+      "index" : 141,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 37.73577899846714,
+        "request_id" : "a46a5f57-1f0d-48e8-8254-7960803e2318",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09710309,
+      "timestamp" : "2026-02-26T09:57:36Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.158110976219177,
+      "height_mm" : 110,
+      "index" : 142,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.18868200504221,
+        "request_id" : "bdebc61e-c726-4c32-9a38-addcc83841b1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025726782,
+      "timestamp" : "2026-02-26T09:57:45Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.634101033210754,
+      "height_mm" : 110,
+      "index" : 143,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.969060996430926,
+        "request_id" : "ae610cc8-0041-435e-a1b0-3a13d0ad2171",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:57:54Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 10.377097964286804,
+      "height_mm" : 130,
+      "index" : 144,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.45449800649658,
+        "request_id" : "505eeb78-de84-4c8c-b4ce-e9512ee23108",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.042078007,
+      "timestamp" : "2026-02-26T09:58:04Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.719532012939453,
+      "height_mm" : 130,
+      "index" : 145,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.561390997609124,
+        "request_id" : "c37e569e-a11b-4509-a6be-df06602dba67",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06508722,
+      "timestamp" : "2026-02-26T09:58:12Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.432132005691528,
+      "height_mm" : 130,
+      "index" : 146,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.390641003265046,
+        "request_id" : "7a5d6709-5c4e-44da-af21-3e025ecd4ab2",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.14414415,
+      "timestamp" : "2026-02-26T09:58:21Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.857164025306702,
+      "height_mm" : 130,
+      "index" : 147,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.207171009853482,
+        "request_id" : "5059b394-95a7-4587-a6c8-847bfe05fcb1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:58:28Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.722738027572632,
+      "height_mm" : 130,
+      "index" : 148,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.44146899972111,
+        "request_id" : "8ff99c40-90e9-461c-b808-b6f77cf09aca",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:58:36Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.7648420333862305,
+      "height_mm" : 130,
+      "index" : 149,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.217047001817264,
+        "request_id" : "5afb1eda-be03-4032-b7fe-c5ff20029c1d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:58:44Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.396720051765442,
+      "height_mm" : 130,
+      "index" : 150,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.006492000306025,
+        "request_id" : "21284ddc-b268-4501-9e47-befbecdfea28",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:58:52Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.977816939353943,
+      "height_mm" : 130,
+      "index" : 151,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.114032989833504,
+        "request_id" : "58900c55-143d-4615-8bd4-23c212a7f386",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.05469755,
+      "timestamp" : "2026-02-26T09:59:00Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.7385900020599365,
+      "height_mm" : 130,
+      "index" : 152,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.956946993479505,
+        "request_id" : "46841efa-5691-450d-b584-cc66fa427201",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.124740124,
+      "timestamp" : "2026-02-26T09:59:08Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.273241996765137,
+      "height_mm" : 130,
+      "index" : 153,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.295735002146102,
+        "request_id" : "545a855c-a485-4b15-bcf1-ecf7e43a183a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:59:16Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.741717100143433,
+      "height_mm" : 130,
+      "index" : 154,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.333901004865766,
+        "request_id" : "bc3cc366-44db-4751-ad4a-cb922865a0c7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:59:24Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.976266026496887,
+      "height_mm" : 130,
+      "index" : 155,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.827971002901904,
+        "request_id" : "f29a3069-4a43-4fb5-b535-bc64cda7206a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:59:32Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.245350003242493,
+      "height_mm" : 130,
+      "index" : 156,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.025172002846375,
+        "request_id" : "0c4965b5-91aa-4d91-9596-b7682bc23260",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:59:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.880248069763184,
+      "height_mm" : 130,
+      "index" : 157,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.80192099919077,
+        "request_id" : "5eae5366-6577-49a7-9cad-5b4b48e29e29",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T09:59:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.592903017997742,
+      "height_mm" : 130,
+      "index" : 158,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-02-26T09:59:55Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.232109069824219,
+      "height_mm" : 130,
+      "index" : 159,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.652588003547862,
+        "request_id" : "612733e4-c748-4475-96b1-b7ac45e316c9",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.16167103,
+      "timestamp" : "2026-02-26T10:00:03Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.133665919303894,
+      "height_mm" : 130,
+      "index" : 160,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:00:11Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.404299974441528,
+      "height_mm" : 130,
+      "index" : 161,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.034027996705845,
+        "request_id" : "fd128fb8-91d4-4369-8f7a-b4904dc6bb6d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:00:18Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.783413052558899,
+      "height_mm" : 130,
+      "index" : 162,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.0068979926873,
+        "request_id" : "e3e7fc4d-0c6a-49f0-8203-59b6ac3ad2bd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08131668,
+      "timestamp" : "2026-02-26T10:00:27Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.636924028396606,
+      "height_mm" : 130,
+      "index" : 163,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.854856005636975,
+        "request_id" : "7a78d31a-ec3a-4555-bb4d-b0a0dd3f3ffc",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:00:36Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.586683988571167,
+      "height_mm" : 130,
+      "index" : 164,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.55213999969419,
+        "request_id" : "5a235f3d-5327-4f68-85fe-dc8c18a72154",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.074850306,
+      "timestamp" : "2026-02-26T10:00:44Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.573439002037048,
+      "height_mm" : 130,
+      "index" : 165,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13910455,
+      "timestamp" : "2026-02-26T10:00:53Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.635607004165649,
+      "height_mm" : 130,
+      "index" : 166,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 37.811436006450094,
+        "request_id" : "95f5a87f-5acc-4194-9db6-355be3a12ffa",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06793478,
+      "timestamp" : "2026-02-26T10:01:01Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.9422080516815186,
+      "height_mm" : 130,
+      "index" : 167,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.071664001909085,
+        "request_id" : "5c2de5e3-8831-486e-928b-5d0cc1d94bdd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:01:09Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.395587086677551,
+      "height_mm" : 130,
+      "index" : 168,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.510345000540838,
+        "request_id" : "47aaacbe-02ee-43a5-9a55-a9a951ced43d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.054994825,
+      "timestamp" : "2026-02-26T10:01:17Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.167128920555115,
+      "height_mm" : 130,
+      "index" : 169,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.709343001130037,
+        "request_id" : "26a0144f-08e7-45b5-99ef-bf61526e9b5e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.27972937,
+      "timestamp" : "2026-02-26T10:01:25Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.117470979690552,
+      "height_mm" : 130,
+      "index" : 170,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.8505670101149,
+        "request_id" : "0e0c9593-53a2-49f0-8dc1-31a645bd46b8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.15670846,
+      "timestamp" : "2026-02-26T10:01:33Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.221925020217896,
+      "height_mm" : 130,
+      "index" : 171,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.253267006017268,
+        "request_id" : "8d1a4d91-fc42-41ba-ad35-6fda6aa95fe5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08503401,
+      "timestamp" : "2026-02-26T10:01:42Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.718690037727356,
+      "height_mm" : 130,
+      "index" : 172,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.60573699802626,
+        "request_id" : "227ec1bb-a3db-47f6-b25f-2f0266608ccb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.05466941,
+      "timestamp" : "2026-02-26T10:01:49Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.9582200050354,
+      "height_mm" : 130,
+      "index" : 173,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.432224997435696,
+        "request_id" : "97cce1f1-e2e2-4c71-a419-553f1058e47e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:01:57Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.361106038093567,
+      "height_mm" : 130,
+      "index" : 174,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.17319200746715,
+        "request_id" : "c9acd6ef-47ac-4bcf-89c9-72d543d6aba6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.11322463,
+      "timestamp" : "2026-02-26T10:02:06Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.411138892173767,
+      "height_mm" : 130,
+      "index" : 175,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.10293999814894,
+        "request_id" : "6d9b993c-6eaa-4f2f-b6b5-e1fcd0544917",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.058229815,
+      "timestamp" : "2026-02-26T10:02:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.393870949745178,
+      "height_mm" : 130,
+      "index" : 176,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.984487006207928,
+        "request_id" : "9ab3e470-c4f3-4d8f-82f3-631610b88290",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.17333856,
+      "timestamp" : "2026-02-26T10:02:22Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.867166996002197,
+      "height_mm" : 130,
+      "index" : 177,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.956369987805374,
+        "request_id" : "f21e6628-4f4a-4c5c-b4e3-b479e976e092",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:02:30Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.032042980194092,
+      "height_mm" : 130,
+      "index" : 178,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.30071300175041,
+        "request_id" : "f80f4f29-3015-4df6-9b40-2f455a015b27",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:02:38Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.7646729946136475,
+      "height_mm" : 130,
+      "index" : 179,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.026120005757548,
+        "request_id" : "484264f5-1083-46f7-b908-a0712d166a79",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:02:46Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 8.365702033042908,
+      "height_mm" : 130,
+      "index" : 180,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.097613007645123,
+        "request_id" : "99fc6e23-9ed4-4e45-bf98-7d9d39f4de8a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.04180602,
+      "timestamp" : "2026-02-26T10:02:54Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.112159013748169,
+      "height_mm" : 130,
+      "index" : 181,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.939569001318887,
+        "request_id" : "9d144e00-0b5c-49f0-948a-55a2e06d64ba",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.11514473,
+      "timestamp" : "2026-02-26T10:03:03Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.725722908973694,
+      "height_mm" : 130,
+      "index" : 182,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.754108007997274,
+        "request_id" : "453017ae-45ee-46ad-bfb6-b93a45ae4bb7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.10296011,
+      "timestamp" : "2026-02-26T10:03:10Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.117817044258118,
+      "height_mm" : 130,
+      "index" : 183,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.034671001369134,
+        "request_id" : "f5ad9082-fef1-48ab-9d9d-3c789a94bcda",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:03:18Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.708485007286072,
+      "height_mm" : 130,
+      "index" : 184,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.604324007872492,
+        "request_id" : "01f1e52c-9561-4128-a0c9-a13354a8f280",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:03:26Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.122374057769775,
+      "height_mm" : 130,
+      "index" : 185,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 50.43988800025545,
+        "request_id" : "a17dd446-0706-4e7e-bd64-3788b24cf155",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:03:34Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.37795889377594,
+      "height_mm" : 130,
+      "index" : 186,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.41196201229468,
+        "request_id" : "7d1d3540-a6c6-42b4-b035-b2490f6837d0",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.051453564,
+      "timestamp" : "2026-02-26T10:03:43Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.658715009689331,
+      "height_mm" : 130,
+      "index" : 187,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.567162011517212,
+        "request_id" : "abfdff5d-6933-46be-a661-66e4107ecdce",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032349896,
+      "timestamp" : "2026-02-26T10:03:50Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.789752960205078,
+      "height_mm" : 130,
+      "index" : 188,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.110642994055524,
+        "request_id" : "160cedff-6c2e-44bf-9877-9ac003763e14",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.16498446,
+      "timestamp" : "2026-02-26T10:03:58Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.206938028335571,
+      "height_mm" : 130,
+      "index" : 189,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.856451003463008,
+        "request_id" : "c53f0ebe-f5d3-48de-a938-f60d61c77194",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:04:06Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.145624995231628,
+      "height_mm" : 130,
+      "index" : 190,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.913948997389525,
+        "request_id" : "96c722b9-dc92-4440-b715-117860555557",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:04:14Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.343108057975769,
+      "height_mm" : 130,
+      "index" : 191,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 35.699997999472544,
+        "request_id" : "fb86b1ca-a371-46c3-8f1e-267a37d84a9d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:04:23Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.666327953338623,
+      "height_mm" : 130,
+      "index" : 192,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.522279000957496,
+        "request_id" : "08407a57-5032-4639-9834-a617be84c896",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:04:30Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.875448942184448,
+      "height_mm" : 130,
+      "index" : 193,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.80446100141853,
+        "request_id" : "28c3c1b4-24ec-4bf8-9d4e-68aec2ed1b1f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.1183432,
+      "timestamp" : "2026-02-26T10:04:38Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.597180008888245,
+      "height_mm" : 130,
+      "index" : 194,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.797800000873394,
+        "request_id" : "ada30c9f-76a1-467c-9a5c-df73954a0358",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.05466941,
+      "timestamp" : "2026-02-26T10:04:47Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.679127097129822,
+      "height_mm" : 130,
+      "index" : 195,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 36.59340400190558,
+        "request_id" : "e129fe78-ff9f-42ec-9424-6163e7f1a7c3",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08730236,
+      "timestamp" : "2026-02-26T10:04:55Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.242941975593567,
+      "height_mm" : 130,
+      "index" : 196,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025879918,
+      "timestamp" : "2026-02-26T10:05:03Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.833539009094238,
+      "height_mm" : 130,
+      "index" : 197,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.453522001043893,
+        "request_id" : "5559cba1-c842-43b0-af45-7eaf140b0c12",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:05:11Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.906857013702393,
+      "height_mm" : 130,
+      "index" : 198,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.31771899096202,
+        "request_id" : "eb689228-6397-4a67-89ec-976fc41e2238",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.061464805,
+      "timestamp" : "2026-02-26T10:05:19Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.710974931716919,
+      "height_mm" : 130,
+      "index" : 199,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.413932998664677,
+        "request_id" : "68ce1c5b-fb57-4495-bc55-50446cae5476",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:05:27Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.484916090965271,
+      "height_mm" : 130,
+      "index" : 200,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.329488999792375,
+        "request_id" : "9b4a19df-40aa-43ce-86a8-e22476c03261",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.1843944,
+      "timestamp" : "2026-02-26T10:05:36Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.589895963668823,
+      "height_mm" : 130,
+      "index" : 201,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.674289991613477,
+        "request_id" : "c69cb8c4-923f-4bd6-a0e4-d3f752c532e2",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.24118859,
+      "timestamp" : "2026-02-26T10:05:44Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.687916994094849,
+      "height_mm" : 130,
+      "index" : 202,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.061138011864386,
+        "request_id" : "90fd0339-b70d-4433-a0be-e00a37717c78",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.04797697,
+      "timestamp" : "2026-02-26T10:05:52Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.891615986824036,
+      "height_mm" : 130,
+      "index" : 203,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 48.07158300536685,
+        "request_id" : "392c473d-a789-4a33-b927-9bf6164d477c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:06:00Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.606819987297058,
+      "height_mm" : 130,
+      "index" : 204,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.442818005103618,
+        "request_id" : "e61c25fe-9149-40df-83be-610b82f6fb5c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.055025086,
+      "timestamp" : "2026-02-26T10:06:09Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.948647975921631,
+      "height_mm" : 130,
+      "index" : 205,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.545212010503747,
+        "request_id" : "3813f92b-f2ca-42c2-b806-caec132594f6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.20166536,
+      "timestamp" : "2026-02-26T10:06:16Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.237207055091858,
+      "height_mm" : 130,
+      "index" : 206,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.76355500565842,
+        "request_id" : "de3bd254-5197-4243-af10-5e4ddee36a11",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.15860172,
+      "timestamp" : "2026-02-26T10:06:25Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.782359957695007,
+      "height_mm" : 130,
+      "index" : 207,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.1784399994649,
+        "request_id" : "40bb570b-d528-4c30-b07a-15fef053972e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06431696,
+      "timestamp" : "2026-02-26T10:06:32Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.683941960334778,
+      "height_mm" : 130,
+      "index" : 208,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.519318002508953,
+        "request_id" : "bd4e7b27-3a24-4bd8-b5fe-e7d11b89bc03",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.05529534,
+      "timestamp" : "2026-02-26T10:06:40Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.503969073295593,
+      "height_mm" : 130,
+      "index" : 209,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.829785998212174,
+        "request_id" : "fc437227-5d0f-4116-a80f-7c2225ba4990",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:06:48Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.53016209602356,
+      "height_mm" : 130,
+      "index" : 210,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 38.14347699517384,
+        "request_id" : "ba240bf0-6f83-416d-99ac-5ba02d38d989",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.111314826,
+      "timestamp" : "2026-02-26T10:06:56Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.727275967597961,
+      "height_mm" : 130,
+      "index" : 211,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.661125007085502,
+        "request_id" : "f2387e7e-ae3b-40d5-bc82-d576c9f7f6fb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.11715699,
+      "timestamp" : "2026-02-26T10:07:04Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.886883020401001,
+      "height_mm" : 130,
+      "index" : 212,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.024354010587558,
+        "request_id" : "999e82bd-8f71-4429-bf21-c52ffb4a98c7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.20268725,
+      "timestamp" : "2026-02-26T10:07:12Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.672518014907837,
+      "height_mm" : 130,
+      "index" : 213,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.317869011312723,
+        "request_id" : "b68bfe79-c37e-4fef-8976-76cc4c82a925",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:07:19Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.6787049770355225,
+      "height_mm" : 130,
+      "index" : 214,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 35.38046400353778,
+        "request_id" : "759fdbed-d87f-4ef5-aad5-7353f15d2b6e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:07:27Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 8.026015043258667,
+      "height_mm" : 130,
+      "index" : 215,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.499561000382528,
+        "request_id" : "bad34c8a-0a0a-4da0-a19b-a57854e9b7cf",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:07:35Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.8468708992004395,
+      "height_mm" : 130,
+      "index" : 216,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.118037997046486,
+        "request_id" : "1d9ea43f-1e14-411f-ace1-3db811a8c3dd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:07:43Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.942600965499878,
+      "height_mm" : 130,
+      "index" : 217,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.242491999757476,
+        "request_id" : "de5272c2-547c-4d0e-b107-77e39f99acf9",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02894263,
+      "timestamp" : "2026-02-26T10:07:51Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.664851903915405,
+      "height_mm" : 130,
+      "index" : 218,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.11937700526323,
+        "request_id" : "41102988-8799-4c9a-9184-b46fbe33715a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.029289247,
+      "timestamp" : "2026-02-26T10:07:59Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.197674036026001,
+      "height_mm" : 130,
+      "index" : 219,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.260372989578173,
+        "request_id" : "04e03ad6-f817-4d12-a70a-bee9456e758c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:08:07Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.093957901000977,
+      "height_mm" : 130,
+      "index" : 220,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.56712400272954,
+        "request_id" : "6b5d2196-7d51-4e49-949f-4d15fc6d42c4",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:08:15Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.72645902633667,
+      "height_mm" : 130,
+      "index" : 221,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.099050988908857,
+        "request_id" : "4b036e48-2515-4ae6-b885-72ca5329ec6a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:08:23Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.364850997924805,
+      "height_mm" : 130,
+      "index" : 222,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.656692007440142,
+        "request_id" : "3e436acd-2a74-458e-821e-17a035e5a2fc",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:08:31Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.7297279834747314,
+      "height_mm" : 130,
+      "index" : 223,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.968339995713905,
+        "request_id" : "46773374-5778-4232-af46-ce6e7577ba28",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.09107468,
+      "timestamp" : "2026-02-26T10:08:39Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.168852925300598,
+      "height_mm" : 130,
+      "index" : 224,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.441077001043595,
+        "request_id" : "15be7278-ab6e-49aa-acc3-6ba10ff03ffb",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.16271804,
+      "timestamp" : "2026-02-26T10:08:47Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.006265044212341,
+      "height_mm" : 130,
+      "index" : 225,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.791078002541326,
+        "request_id" : "91c5aab8-b176-415a-a654-0177c9a5c5d3",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:08:55Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.937029004096985,
+      "height_mm" : 130,
+      "index" : 226,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.05173699138686,
+        "request_id" : "1c31441b-8048-46d9-82e8-88a1f292b2e8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:09:03Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.083858966827393,
+      "height_mm" : 130,
+      "index" : 227,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.508029998396523,
+        "request_id" : "fa54537e-c667-4380-9f60-852745d1321f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:09:11Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.454493045806885,
+      "height_mm" : 130,
+      "index" : 228,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.89433900336735,
+        "request_id" : "d750b5c7-4ae5-445a-8781-35b18ffa37fd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:09:19Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.976994037628174,
+      "height_mm" : 130,
+      "index" : 229,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.574845003779046,
+        "request_id" : "d70e36e7-2bb5-49e5-a0c0-4c37a033d981",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.18875293,
+      "timestamp" : "2026-02-26T10:09:27Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 9.321435928344727,
+      "height_mm" : 130,
+      "index" : 230,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.84873798978515,
+        "request_id" : "a01dfef8-e1e4-4344-b2de-ec20505cda66",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.10290713,
+      "timestamp" : "2026-02-26T10:09:37Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.41637897491455,
+      "height_mm" : 130,
+      "index" : 231,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.939086000202224,
+        "request_id" : "6bd21b4a-907b-4afe-b09f-99c19ef0fc41",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.081849135,
+      "timestamp" : "2026-02-26T10:09:45Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.2183109521865845,
+      "height_mm" : 130,
+      "index" : 232,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.09076000389177,
+        "request_id" : "007e8536-1ceb-4374-af47-5e98e7c9a68b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03907522,
+      "timestamp" : "2026-02-26T10:09:52Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.958911895751953,
+      "height_mm" : 130,
+      "index" : 233,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.398095998563804,
+        "request_id" : "74a5ed47-5314-45f9-9602-d456a3abd02e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:10:00Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.311840057373047,
+      "height_mm" : 130,
+      "index" : 234,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.53553999052383,
+        "request_id" : "ecace25a-9f9f-4d7a-b13d-71b57c7ee5a2",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03254361,
+      "timestamp" : "2026-02-26T10:10:09Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.744943976402283,
+      "height_mm" : 130,
+      "index" : 235,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.56352199462708,
+        "request_id" : "da0e8f17-c704-48e2-875b-982c9cec8bb5",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:10:17Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.46055293083191,
+      "height_mm" : 130,
+      "index" : 236,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.01618199737277,
+        "request_id" : "dd4830b2-f473-4e84-b159-44a5eefb2734",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.23431398,
+      "timestamp" : "2026-02-26T10:10:26Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.95265793800354,
+      "height_mm" : 130,
+      "index" : 237,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.58448600070551,
+        "request_id" : "84d9e77c-2c91-480c-bcf2-7ae0e503fc74",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.29438406,
+      "timestamp" : "2026-02-26T10:10:35Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.937977075576782,
+      "height_mm" : 130,
+      "index" : 238,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 34.98504801245872,
+        "request_id" : "9b405e76-4df9-451e-8a7c-b617a20d7454",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025879918,
+      "timestamp" : "2026-02-26T10:10:43Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.6944780349731445,
+      "height_mm" : 130,
+      "index" : 239,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.16430700174533,
+        "request_id" : "77c43ad7-7a39-4dc6-ba60-2435468d3173",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:10:50Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.455475926399231,
+      "height_mm" : 130,
+      "index" : 240,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 36.66035900823772,
+        "request_id" : "fc620288-5b6f-4d6d-887c-6a50ad17fca8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.065053344,
+      "timestamp" : "2026-02-26T10:10:59Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.135264039039612,
+      "height_mm" : 130,
+      "index" : 241,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.002068992354907,
+        "request_id" : "f6c584cd-bdf9-4182-9863-96d26df88c1a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.20157357,
+      "timestamp" : "2026-02-26T10:11:07Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.25098204612732,
+      "height_mm" : 130,
+      "index" : 242,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.55735000432469,
+        "request_id" : "d677fab3-709c-4a9b-ac56-f977eecf376f",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.14912513,
+      "timestamp" : "2026-02-26T10:11:15Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.417141079902649,
+      "height_mm" : 130,
+      "index" : 243,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.563230009633116,
+        "request_id" : "a7a0d054-909a-4b28-9741-71d2a943ff41",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0938147,
+      "timestamp" : "2026-02-26T10:11:23Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.245520949363708,
+      "height_mm" : 130,
+      "index" : 244,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.527996004209854,
+        "request_id" : "46b31cb2-e22a-4614-888f-9721e800ee82",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032349896,
+      "timestamp" : "2026-02-26T10:11:31Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.885607004165649,
+      "height_mm" : 130,
+      "index" : 245,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.05325100477785,
+        "request_id" : "4fbd91d1-8630-492a-ad0c-5153eb8b11b9",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:11:39Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.141855001449585,
+      "height_mm" : 130,
+      "index" : 246,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.585154995904304,
+        "request_id" : "916e5c63-91c7-443f-a51e-2050e6cc3d4e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13263457,
+      "timestamp" : "2026-02-26T10:11:47Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.163670897483826,
+      "height_mm" : 130,
+      "index" : 247,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.90025400382001,
+        "request_id" : "c6fe1d72-51f9-448e-9e16-b70d7e6805ad",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.17291832,
+      "timestamp" : "2026-02-26T10:11:55Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.7058199644088745,
+      "height_mm" : 130,
+      "index" : 248,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 21.730445994762704,
+        "request_id" : "db4b9e5f-aca7-4566-b353-e531fa7530f6",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032175034,
+      "timestamp" : "2026-02-26T10:12:03Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.676680088043213,
+      "height_mm" : 130,
+      "index" : 249,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 38.551164005184546,
+        "request_id" : "c836a097-9b35-4ea3-bcdf-c86a5937f4bc",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:12:10Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.241456031799316,
+      "height_mm" : 130,
+      "index" : 250,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.65831800329033,
+        "request_id" : "6e62ea95-2673-452b-bdf3-788c076a7436",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:12:19Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.809345960617065,
+      "height_mm" : 130,
+      "index" : 251,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 31.870995997451246,
+        "request_id" : "41c0754d-8e60-4756-95ea-3283ed68979d",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:12:27Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 8.1581209897995,
+      "height_mm" : 130,
+      "index" : 252,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 20.13275799981784,
+        "request_id" : "17d1253f-6e29-4ffd-9b0f-591d712c1acd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:12:35Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.925688982009888,
+      "height_mm" : 130,
+      "index" : 253,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.568739998154342,
+        "request_id" : "a91517f3-77ea-41de-b8fb-320b80fcf1ce",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06756757,
+      "timestamp" : "2026-02-26T10:12:43Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.323019027709961,
+      "height_mm" : 130,
+      "index" : 254,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.376015997608192,
+        "request_id" : "4af6f157-cf75-48c4-b036-0cd84688764c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.055324133,
+      "timestamp" : "2026-02-26T10:12:51Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.89491605758667,
+      "height_mm" : 130,
+      "index" : 255,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.687762004556134,
+        "request_id" : "26b8d1c3-ff1c-4596-8823-c0df075b53c7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:12:59Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.945796012878418,
+      "height_mm" : 130,
+      "index" : 256,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 36.80414300470147,
+        "request_id" : "f0908452-3e29-47b2-b2d5-e8f3781a1c1b",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:13:07Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.05543303489685,
+      "height_mm" : 130,
+      "index" : 257,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 53.073417002451606,
+        "request_id" : "64f3d6b1-f6c1-47f2-9ead-3de31d25df25",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:13:15Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.947955965995789,
+      "height_mm" : 130,
+      "index" : 258,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.331155004911125,
+        "request_id" : "a07b286e-a102-4127-990c-bfa2961c48e7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:13:23Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.722048997879028,
+      "height_mm" : 130,
+      "index" : 259,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 22.087830991949886,
+        "request_id" : "445ea084-b392-407e-a1a7-f3e8f2df43e8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.090090096,
+      "timestamp" : "2026-02-26T10:13:31Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.703559041023254,
+      "height_mm" : 130,
+      "index" : 260,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 32.08549399278127,
+        "request_id" : "70bffb4f-8f84-4070-bb7b-22e20731c474",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.1604243,
+      "timestamp" : "2026-02-26T10:13:38Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.030640006065369,
+      "height_mm" : 130,
+      "index" : 261,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.225232995580882,
+        "request_id" : "da1ce58b-87fc-489a-9890-4c17e8591e32",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:13:46Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.456583023071289,
+      "height_mm" : 130,
+      "index" : 262,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.771756991976872,
+        "request_id" : "507cefb1-0cfe-4632-a2c8-9fcd38909435",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:13:55Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.638608932495117,
+      "height_mm" : 130,
+      "index" : 263,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 36.61968698725104,
+        "request_id" : "e94503e2-263f-49ed-8e97-48976425d208",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:14:02Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.119395017623901,
+      "height_mm" : 130,
+      "index" : 264,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 44.05625800427515,
+        "request_id" : "c5f513b9-28ea-47db-9764-5a3c375e1850",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:14:10Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.152997016906738,
+      "height_mm" : 130,
+      "index" : 265,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.21169099479448,
+        "request_id" : "90a01a3b-9534-4983-84a8-f4ff43e5c91e",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13082156,
+      "timestamp" : "2026-02-26T10:14:19Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.185253977775574,
+      "height_mm" : 130,
+      "index" : 266,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.029114908,
+      "timestamp" : "2026-02-26T10:14:27Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.363033056259155,
+      "height_mm" : 130,
+      "index" : 267,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 30.842677006148733,
+        "request_id" : "dbc61bdf-fd81-46e6-aa6f-aa0edfc922c8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.12870014,
+      "timestamp" : "2026-02-26T10:14:35Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.40683889389038,
+      "height_mm" : 130,
+      "index" : 268,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.791862011421472,
+        "request_id" : "6bcb8ff7-aac9-48ba-81d4-9960cdfe63e8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08361204,
+      "timestamp" : "2026-02-26T10:14:44Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.506514072418213,
+      "height_mm" : 130,
+      "index" : 269,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 24.952612002380192,
+        "request_id" : "249a0bd3-37b0-4c21-9f5b-d3e089f22ecd",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:14:51Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.584671020507812,
+      "height_mm" : 130,
+      "index" : 270,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 62.43908900069073,
+        "request_id" : "3b9898b8-a1c5-467f-b203-845f49cd7f97",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03254361,
+      "timestamp" : "2026-02-26T10:15:00Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.404340982437134,
+      "height_mm" : 130,
+      "index" : 271,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.727835997007787,
+        "request_id" : "0fb63c5f-6715-4eb0-85d2-a69673c19c6c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:15:08Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 9.149067997932434,
+      "height_mm" : 130,
+      "index" : 272,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.598402007948607,
+        "request_id" : "acbff3fd-93c7-4263-a57c-e6ef953a350a",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06875328,
+      "timestamp" : "2026-02-26T10:15:17Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.254603028297424,
+      "height_mm" : 130,
+      "index" : 273,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format\"}",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13586956,
+      "timestamp" : "2026-02-26T10:15:25Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.180154919624329,
+      "height_mm" : 130,
+      "index" : 274,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.412465006113052,
+        "request_id" : "abb543e1-be4d-4a98-8f57-a9d9024c35d7",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.057572365,
+      "timestamp" : "2026-02-26T10:15:34Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.362311005592346,
+      "height_mm" : 130,
+      "index" : 275,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 19.569484997191466,
+        "request_id" : "f9a73569-0261-4cd1-812f-344dc61bb2f8",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:15:42Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.640423059463501,
+      "height_mm" : 130,
+      "index" : 276,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.817053000442684,
+        "request_id" : "e83e2b14-a8d5-4ae5-93ed-8e3684501911",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.14800514,
+      "timestamp" : "2026-02-26T10:15:50Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.209149956703186,
+      "height_mm" : 130,
+      "index" : 277,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 28.29172399651725,
+        "request_id" : "f1c2c249-4653-45e8-896f-c332fdc9c582",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.22389252,
+      "timestamp" : "2026-02-26T10:15:58Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.277158975601196,
+      "height_mm" : 130,
+      "index" : 278,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.80968899524305,
+        "request_id" : "35d94088-b6a0-493a-a786-8e1217839b34",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.077220075,
+      "timestamp" : "2026-02-26T10:16:06Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.732495903968811,
+      "height_mm" : 130,
+      "index" : 279,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 27.88824899471365,
+        "request_id" : "64214a15-c597-40e7-9072-3acac8f70903",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0675328,
+      "timestamp" : "2026-02-26T10:16:14Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.781512975692749,
+      "height_mm" : 130,
+      "index" : 280,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 33.39079501165543,
+        "request_id" : "3ea22c0b-ad00-42ff-8c1f-8a6ac09e22c1",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.03859017,
+      "timestamp" : "2026-02-26T10:16:22Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.676022052764893,
+      "height_mm" : 130,
+      "index" : 281,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.29751299112104,
+        "request_id" : "e99acf2d-73e4-434e-9de2-346ff2025f9c",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:16:29Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.681613087654114,
+      "height_mm" : 130,
+      "index" : 282,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.246429999242537,
+        "request_id" : "1d11a069-3f4a-495a-b3bf-56b563b8bf08",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08517609,
+      "timestamp" : "2026-02-26T10:16:38Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.698371052742004,
+      "height_mm" : 130,
+      "index" : 283,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 20.741462998557836,
+        "request_id" : "6511349e-ce2a-440c-ad9b-17f9ba3460ac",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13835263,
+      "timestamp" : "2026-02-26T10:16:46Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.346377968788147,
+      "height_mm" : 130,
+      "index" : 284,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 23.317310013226233,
+        "request_id" : "f5ff7298-e810-4c93-bd6a-bcbcab77f3d4",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.06793478,
+      "timestamp" : "2026-02-26T10:16:54Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.094129085540771,
+      "height_mm" : 130,
+      "index" : 285,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 26.53993500280194,
+        "request_id" : "b8878f2f-a5b5-4916-b7e1-35118001b181",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025726782,
+      "timestamp" : "2026-02-26T10:17:02Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.857187032699585,
+      "height_mm" : 130,
+      "index" : 286,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 25.45053900394123,
+        "request_id" : "8531e41b-72ed-48c5-9e4f-e6ee46921775",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025726782,
+      "timestamp" : "2026-02-26T10:17:10Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.726531982421875,
+      "height_mm" : 130,
+      "index" : 287,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+
+        ],
+        "processing_time_ms" : 29.041606991086155,
+        "request_id" : "b9d4b4bf-d9c4-463b-9e7a-d350d7fdcdfa",
+        "status" : "Not Registered",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-02-26T10:17:18Z",
+      "yaw_degrees" : 3
+    }
+  ],
+  "sweep" : {
+    "completed_positions" : 288,
+    "config" : {
+      "axis_order" : [
+        "height",
+        "yaw",
+        "roll",
+        "pitch"
+      ],
+      "height" : {
+        "max" : 130,
+        "min" : 110,
+        "step" : 20
+      },
+      "pitch" : {
+        "max" : 10,
+        "min" : -10,
+        "step" : 4
+      },
+      "roll" : {
+        "max" : 10,
+        "min" : -10,
+        "step" : 4
+      },
+      "settle_time_seconds" : 2,
+      "yaw" : {
+        "max" : 3,
+        "min" : -3,
+        "step" : 2
+      }
+    },
+    "duration_seconds" : 2441.38968706131,
+    "end_time" : "2026-02-26T10:17:18Z",
+    "error_count" : 0,
+    "failed_count" : 288,
+    "start_time" : "2026-02-26T09:36:36Z",
+    "total_positions" : 288,
+    "verification_rate_percent" : 0,
+    "verified_count" : 0,
+    "was_cancelled" : false
+  }
+}

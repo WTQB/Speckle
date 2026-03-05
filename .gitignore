@@ -21,6 +21,7 @@ Thumbs.db
 
 # Data files (large JSON exports from testing rig)
 *.json
+!input_data/json/*.json
 
 # Output figures
 figures/

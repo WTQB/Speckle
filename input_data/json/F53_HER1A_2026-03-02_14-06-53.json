@@ -1,0 +1,3067 @@
+{
+  "exported_at" : "2026-03-02T14:49:15Z",
+  "positions" : [
+    {
+      "capture_time_seconds" : 11.461467027664185,
+      "height_mm" : 110,
+      "index" : 0,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'...'sap_rgbg': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:05Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.275936007499695,
+      "height_mm" : 110,
+      "index" : 1,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_h...intercept': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:11Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.494439959526062,
+      "height_mm" : 110,
+      "index" : 2,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026164312,
+      "timestamp" : "2026-03-02T14:07:17Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.265213966369629,
+      "height_mm" : 110,
+      "index" : 3,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...ence_b': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:25Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.615867018699646,
+      "height_mm" : 110,
+      "index" : 4,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...atio_trend':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:31Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.872964978218079,
+      "height_mm" : 110,
+      "index" : 5,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...ow_mean_r': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:38Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.1385170221328735,
+      "height_mm" : 110,
+      "index" : 6,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul..._entropy': 2",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:45Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.082571029663086,
+      "height_mm" : 110,
+      "index" : 7,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:52Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.8784259557724,
+      "height_mm" : 110,
+      "index" : 8,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...n_entropy': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:07:59Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.335266947746277,
+      "height_mm" : 110,
+      "index" : 9,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.057572365,
+      "timestamp" : "2026-03-02T14:08:07Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.919556021690369,
+      "height_mm" : 110,
+      "index" : 10,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...'sap_rgbg': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.848821997642517,
+      "height_mm" : 110,
+      "index" : 11,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:20Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.062586069107056,
+      "height_mm" : 110,
+      "index" : 12,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:27Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 5.6332889795303345,
+      "height_mm" : 110,
+      "index" : 13,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 3 validation errors for VerificationRequest\\nmetrics.sap_ratio_result.regression_fits\\n  Field required [type=missing, input_value={'outlier_indices': {'rgb..., 'sap",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.084391035,
+      "timestamp" : "2026-03-02T14:08:33Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.1046741008758545,
+      "height_mm" : 110,
+      "index" : 14,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure..._entropy': 5",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.467394948005676,
+      "height_mm" : 110,
+      "index" : 15,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...on_entropy':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:48Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.262302994728088,
+      "height_mm" : 110,
+      "index" : 16,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:08:55Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.472686052322388,
+      "height_mm" : 110,
+      "index" : 17,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul..._entropy': 5",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:02Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.250922918319702,
+      "height_mm" : 110,
+      "index" : 18,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:10Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.870497941970825,
+      "height_mm" : 110,
+      "index" : 19,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:16Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.009349942207336,
+      "height_mm" : 110,
+      "index" : 20,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026009494,
+      "timestamp" : "2026-03-02T14:09:24Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.688042044639587,
+      "height_mm" : 110,
+      "index" : 21,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'thresho...'r_squared':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13980103,
+      "timestamp" : "2026-03-02T14:09:31Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.094823956489563,
+      "height_mm" : 110,
+      "index" : 22,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'ou..._size_in_out",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:38Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.88658595085144,
+      "height_mm" : 110,
+      "index" : 23,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:45Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.241686940193176,
+      "height_mm" : 110,
+      "index" : 24,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:09:52Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.291014075279236,
+      "height_mm" : 110,
+      "index" : 25,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...: 0.02706050",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:10:00Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.27096700668335,
+      "height_mm" : 110,
+      "index" : 26,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'me..._size_in_out",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032511868,
+      "timestamp" : "2026-03-02T14:10:07Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.315674901008606,
+      "height_mm" : 110,
+      "index" : 27,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul...n_entropy': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.055575535,
+      "timestamp" : "2026-03-02T14:10:14Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.168136954307556,
+      "height_mm" : 110,
+      "index" : 28,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul..._model': 'iP",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:10:21Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.901039004325867,
+      "height_mm" : 110,
+      "index" : 29,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ..._entropy': 2",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:10:28Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.582350015640259,
+      "height_mm" : 110,
+      "index" : 30,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:10:36Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 4.2937949895858765,
+      "height_mm" : 110,
+      "index" : 31,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-03-02T14:10:40Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.074522018432617,
+      "height_mm" : 110,
+      "index" : 32,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'...Phone17,3', ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:10:47Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 6.86099100112915,
+      "height_mm" : 110,
+      "index" : 33,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'...Phone17,3', ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.028957529,
+      "timestamp" : "2026-03-02T14:10:54Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.1074289083480835,
+      "height_mm" : 110,
+      "index" : 34,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...n_entropy': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:01Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 5.5982290506362915,
+      "height_mm" : 110,
+      "index" : 35,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 3 validation errors for VerificationRequest\\nmetrics.sap_ratio_result.regression_fits\\n  Field required [type=missing, input_value={'measurements': [{'perim...ab_l':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.4142012,
+      "timestamp" : "2026-03-02T14:11:07Z",
+      "yaw_degrees" : -3
+    },
+    {
+      "capture_time_seconds" : 7.553544044494629,
+      "height_mm" : 110,
+      "index" : 36,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'...4262295082, ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:14Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.315057039260864,
+      "height_mm" : 110,
+      "index" : 37,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'minkowski_measurements'...o': 29.41379",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:22Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.7303019762039185,
+      "height_mm" : 110,
+      "index" : 38,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026308868,
+      "timestamp" : "2026-03-02T14:11:29Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.307201981544495,
+      "height_mm" : 110,
+      "index" : 39,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...: 0.05102157",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:37Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.042528986930847,
+      "height_mm" : 110,
+      "index" : 40,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:44Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.318881034851074,
+      "height_mm" : 110,
+      "index" : 41,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'...w_mean_r': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:51Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.446694016456604,
+      "height_mm" : 110,
+      "index" : 42,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:11:59Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 6.856320023536682,
+      "height_mm" : 110,
+      "index" : 43,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...': 0.0399351",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:05Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.7255619764328,
+      "height_mm" : 110,
+      "index" : 44,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:13Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.55239999294281,
+      "height_mm" : 110,
+      "index" : 45,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...ms': 0.04196",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032349896,
+      "timestamp" : "2026-03-02T14:12:21Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.46402907371521,
+      "height_mm" : 110,
+      "index" : 46,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:28Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.07548201084137,
+      "height_mm" : 110,
+      "index" : 47,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:35Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.460525989532471,
+      "height_mm" : 110,
+      "index" : 48,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'...low_mean_l':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:43Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.122462034225464,
+      "height_mm" : 110,
+      "index" : 49,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_h...'gradient': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:50Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.708938956260681,
+      "height_mm" : 110,
+      "index" : 50,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_h...gradient': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:12:58Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.503146052360535,
+      "height_mm" : 110,
+      "index" : 51,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...ence_b': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.062113833,
+      "timestamp" : "2026-03-02T14:13:05Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.263674974441528,
+      "height_mm" : 110,
+      "index" : 52,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'thresho...': 0.1040697",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:13:12Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.078341960906982,
+      "height_mm" : 110,
+      "index" : 53,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'anomaly..._ms': 0.0839",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:13:19Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 6.883306980133057,
+      "height_mm" : 110,
+      "index" : 54,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...processing_t",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.337664,
+      "timestamp" : "2026-03-02T14:13:26Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 5.650290012359619,
+      "height_mm" : 110,
+      "index" : 55,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 8 validation errors for VerificationRequest\\nmetrics.white_reference_result.wrs\\n  Field required [type=missing, input_value={'threshold_used': 0, 'wr...hromatic_neu",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:13:32Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.503695964813232,
+      "height_mm" : 110,
+      "index" : 56,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul..._entropy': 3",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.029761907,
+      "timestamp" : "2026-03-02T14:13:39Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.668203949928284,
+      "height_mm" : 110,
+      "index" : 57,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'legacy_sap_metrics_resu...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.094284415,
+      "timestamp" : "2026-03-02T14:13:47Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.5006760358810425,
+      "height_mm" : 110,
+      "index" : 58,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...: 0.03004074",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.025879918,
+      "timestamp" : "2026-03-02T14:13:55Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.083214998245239,
+      "height_mm" : 110,
+      "index" : 59,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:14:02Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.5035940408706665,
+      "height_mm" : 110,
+      "index" : 60,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:14:09Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 6.061491012573242,
+      "height_mm" : 110,
+      "index" : 61,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.30265555,
+      "timestamp" : "2026-03-02T14:14:15Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.364266037940979,
+      "height_mm" : 110,
+      "index" : 62,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'anomaly...gradient': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:14:23Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.49863600730896,
+      "height_mm" : 110,
+      "index" : 63,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...w_mean_r': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.08730236,
+      "timestamp" : "2026-03-02T14:14:30Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.049494028091431,
+      "height_mm" : 110,
+      "index" : 64,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'..., 'sap_gb': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0295858,
+      "timestamp" : "2026-03-02T14:14:37Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.566563010215759,
+      "height_mm" : 110,
+      "index" : 65,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ..._entropy': 2",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:14:45Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 6.168756008148193,
+      "height_mm" : 110,
+      "index" : 66,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'me..._size_in_out",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.50741607,
+      "timestamp" : "2026-03-02T14:14:51Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.780225038528442,
+      "height_mm" : 110,
+      "index" : 67,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...': 0, 'wrs':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:14:59Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.324441909790039,
+      "height_mm" : 110,
+      "index" : 68,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...': 0.0350475",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:15:06Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 4.343607068061829,
+      "height_mm" : 110,
+      "index" : 69,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-03-02T14:15:10Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 5.839905023574829,
+      "height_mm" : 110,
+      "index" : 70,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 8 validation errors for VerificationRequest\\nmetrics.white_reference_result.wrs\\n  Field required [type=missing, input_value={'wrs_threshold': 0, 'chr...0}, 'thresho",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.25587717,
+      "timestamp" : "2026-03-02T14:15:16Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.067503094673157,
+      "height_mm" : 110,
+      "index" : 71,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ..._entropy': 2",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:15:23Z",
+      "yaw_degrees" : -1
+    },
+    {
+      "capture_time_seconds" : 7.514775991439819,
+      "height_mm" : 110,
+      "index" : 72,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.058844686,
+      "timestamp" : "2026-03-02T14:15:31Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.252748012542725,
+      "height_mm" : 110,
+      "index" : 73,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:15:38Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.474177002906799,
+      "height_mm" : 110,
+      "index" : 74,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_w...r_squared': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:15:46Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.276961088180542,
+      "height_mm" : 110,
+      "index" : 75,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...non_entropy'",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:15:53Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.467663049697876,
+      "height_mm" : 110,
+      "index" : 76,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026153192,
+      "timestamp" : "2026-03-02T14:16:00Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.287236928939819,
+      "height_mm" : 110,
+      "index" : 77,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_w...frame_indice",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:16:08Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.93101692199707,
+      "height_mm" : 110,
+      "index" : 78,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:16:15Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.5349360704422,
+      "height_mm" : 110,
+      "index" : 79,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...st_trend': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026009494,
+      "timestamp" : "2026-03-02T14:16:23Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.947610020637512,
+      "height_mm" : 110,
+      "index" : 80,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul..._entropy': 3",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:16:31Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.3286590576171875,
+      "height_mm" : 110,
+      "index" : 81,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...tio_trend': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.048551545,
+      "timestamp" : "2026-03-02T14:16:38Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.323399066925049,
+      "height_mm" : 110,
+      "index" : 82,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:16:46Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.449766993522644,
+      "height_mm" : 110,
+      "index" : 83,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:16:53Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.942291021347046,
+      "height_mm" : 110,
+      "index" : 84,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...io_trend': -",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:01Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.760470986366272,
+      "height_mm" : 110,
+      "index" : 85,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026009494,
+      "timestamp" : "2026-03-02T14:17:09Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.871645092964172,
+      "height_mm" : 110,
+      "index" : 86,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:17Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.947890996932983,
+      "height_mm" : 110,
+      "index" : 87,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'model_v...ntercept': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.061772548,
+      "timestamp" : "2026-03-02T14:17:25Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.971748113632202,
+      "height_mm" : 110,
+      "index" : 88,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:33Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.329264998435974,
+      "height_mm" : 110,
+      "index" : 89,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'thresho...ier_frame_in",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:40Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.747625946998596,
+      "height_mm" : 110,
+      "index" : 90,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:48Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.513188004493713,
+      "height_mm" : 110,
+      "index" : 91,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ..._entropy': 3",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:17:55Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.9500510692596436,
+      "height_mm" : 110,
+      "index" : 92,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'frame_intensity_measure...ariance': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026153192,
+      "timestamp" : "2026-03-02T14:18:03Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.494164943695068,
+      "height_mm" : 110,
+      "index" : 93,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_bounds_result':...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.13184977,
+      "timestamp" : "2026-03-02T14:18:11Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.703532099723816,
+      "height_mm" : 110,
+      "index" : 94,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...ncy_energy':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026455026,
+      "timestamp" : "2026-03-02T14:18:18Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.32160496711731,
+      "height_mm" : 110,
+      "index" : 95,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'minkowski_measurements'...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:18:26Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.751922011375427,
+      "height_mm" : 110,
+      "index" : 96,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'speckle_detection_resul...rast_trend':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:18:33Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.27901303768158,
+      "height_mm" : 110,
+      "index" : 97,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...: 0.05197525",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:18:41Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.349907994270325,
+      "height_mm" : 110,
+      "index" : 98,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...n_entropy': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:18:48Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.3435070514678955,
+      "height_mm" : 110,
+      "index" : 99,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...ence_b': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026009494,
+      "timestamp" : "2026-03-02T14:18:55Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.512501955032349,
+      "height_mm" : 110,
+      "index" : 100,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...edian_v2': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032511868,
+      "timestamp" : "2026-03-02T14:19:03Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.247132062911987,
+      "height_mm" : 110,
+      "index" : 101,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:19:10Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.486966967582703,
+      "height_mm" : 110,
+      "index" : 102,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:19:18Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.65034806728363,
+      "height_mm" : 110,
+      "index" : 103,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...s': 0.062942",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:19:25Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 5.798192977905273,
+      "height_mm" : 110,
+      "index" : 104,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 8 validation errors for VerificationRequest\\nmetrics.white_reference_result.wrs\\n  Field required [type=missing, input_value={'threshold_used': 0, 'wr...hromatic_neu",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.3597593,
+      "timestamp" : "2026-03-02T14:19:31Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 4.271124005317688,
+      "height_mm" : 110,
+      "index" : 105,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "missing_metrics"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Missing required metric data for server verification",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "timestamp" : "2026-03-02T14:19:35Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.67602002620697,
+      "height_mm" : 110,
+      "index" : 106,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ..., 'sap_gb': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02660282,
+      "timestamp" : "2026-03-02T14:19:43Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 5.793031930923462,
+      "height_mm" : 110,
+      "index" : 107,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 3 validation errors for VerificationRequest\\nmetrics.sap_ratio_result.regression_fits\\n  Field required [type=missing, input_value={'outlier_indices': {'rgb...ow_mea",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.55984557,
+      "timestamp" : "2026-03-02T14:19:49Z",
+      "yaw_degrees" : 1
+    },
+    {
+      "capture_time_seconds" : 7.915954947471619,
+      "height_mm" : 110,
+      "index" : 108,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'me...aly_score': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02894263,
+      "timestamp" : "2026-03-02T14:19:57Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.440291047096252,
+      "height_mm" : 110,
+      "index" : 109,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'experimental_metrics_re...53, 'wrs_thr",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.07195186,
+      "timestamp" : "2026-03-02T14:20:04Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.504015922546387,
+      "height_mm" : 110,
+      "index" : 110,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'legacy_sap_metrics_resu...ze_metric': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:20:12Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.07244598865509,
+      "height_mm" : 110,
+      "index" : 111,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'experimental_metrics_re...4257028112, ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.049037237,
+      "timestamp" : "2026-03-02T14:20:20Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.728782057762146,
+      "height_mm" : 110,
+      "index" : 112,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'...riance': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02894263,
+      "timestamp" : "2026-03-02T14:20:27Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.316934943199158,
+      "height_mm" : 110,
+      "index" : 113,
+      "pitch_degrees" : -10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'...reen_dist': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:20:35Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.894649982452393,
+      "height_mm" : 110,
+      "index" : 114,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'legacy_sap_metrics_resu...minus_rb': 1",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:20:43Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.311483979225159,
+      "height_mm" : 110,
+      "index" : 115,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'flash_influence_result'...cy_energy': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026021335,
+      "timestamp" : "2026-03-02T14:20:50Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.686214089393616,
+      "height_mm" : 110,
+      "index" : 116,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...intercept': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:20:58Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 11.829762935638428,
+      "height_mm" : 110,
+      "index" : 117,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_500"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (500): <html>\r\n<head><title>500 Internal Server Error<\/title><\/head>\r\n<body>\r\n<center><h1>500 Internal Server Error<\/h1><\/center>\r\n<hr><center>nginx\/1.20.2<\/center>\r\n<\/body>\r\n<\/html>\r\n",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.04249894,
+      "timestamp" : "2026-03-02T14:21:09Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.745091915130615,
+      "height_mm" : 110,
+      "index" : 118,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'me...69, 'input_w",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:21:17Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.326436996459961,
+      "height_mm" : 110,
+      "index" : 119,
+      "pitch_degrees" : -6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...Phone17,3', ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:21:25Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.881145000457764,
+      "height_mm" : 110,
+      "index" : 120,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...gradient': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:21:32Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.535900950431824,
+      "height_mm" : 110,
+      "index" : 121,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...rence_b': 0.",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:21:41Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.809704065322876,
+      "height_mm" : 110,
+      "index" : 122,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'legacy_sap_metrics_resu... 'region_hei",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:21:49Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.377838015556335,
+      "height_mm" : 110,
+      "index" : 123,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...ference_b': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.065023735,
+      "timestamp" : "2026-03-02T14:21:57Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.189533948898315,
+      "height_mm" : 110,
+      "index" : 124,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...'r_squared':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:05Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.515897989273071,
+      "height_mm" : 110,
+      "index" : 125,
+      "pitch_degrees" : -2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'wb_gain_measurements': ...ow_mean_r': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:13Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.292296051979065,
+      "height_mm" : 110,
+      "index" : 126,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'ou...': 0.0920295",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:21Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.747254014015198,
+      "height_mm" : 110,
+      "index" : 127,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'input_h...gradient': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:29Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.945942044258118,
+      "height_mm" : 110,
+      "index" : 128,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'legacy_sap_metrics_resu...ariation': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:37Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.524711012840271,
+      "height_mm" : 110,
+      "index" : 129,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'..._minus_rb': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.080835514,
+      "timestamp" : "2026-03-02T14:22:44Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.970471024513245,
+      "height_mm" : 110,
+      "index" : 130,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...ntercept': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:22:52Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.539973020553589,
+      "height_mm" : 110,
+      "index" : 131,
+      "pitch_degrees" : 2,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'...gradient': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:00Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.951534032821655,
+      "height_mm" : 110,
+      "index" : 132,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme... 'sap_gb': 1",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:08Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.960239052772522,
+      "height_mm" : 110,
+      "index" : 133,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'svdd_result': {'embeddi... 'gradient':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:16Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 8.194983005523682,
+      "height_mm" : 110,
+      "index" : 134,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'re...': 0.0860691",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:24Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.97900390625,
+      "height_mm" : 110,
+      "index" : 135,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'experimental_metrics_re...25, 'wrs_thr",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.032526672,
+      "timestamp" : "2026-03-02T14:23:32Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.5495229959487915,
+      "height_mm" : 110,
+      "index" : 136,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_result': ...ier_frame_in",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.0295858,
+      "timestamp" : "2026-03-02T14:23:40Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.871991991996765,
+      "height_mm" : 110,
+      "index" : 137,
+      "pitch_degrees" : 6,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'experimental_metrics_re...de_slope': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:47Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.264070987701416,
+      "height_mm" : 110,
+      "index" : 138,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...rcept': 0.00",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:23:55Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.771612048149109,
+      "height_mm" : 110,
+      "index" : 139,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'white_reference_result'..._minus_rb': ",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:24:02Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.405913949012756,
+      "height_mm" : 110,
+      "index" : 140,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : -2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'qid_evolution_measureme...ercept': 0.0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:24:10Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.67225706577301,
+      "height_mm" : 110,
+      "index" : 141,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 2,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_measurements': [{'p...erence_b': 0",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0,
+      "timestamp" : "2026-03-02T14:24:18Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.491947889328003,
+      "height_mm" : 110,
+      "index" : 142,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 6,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'sap_ratio_result': {'ou...9], 'input_w",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.02926068,
+      "timestamp" : "2026-03-02T14:24:25Z",
+      "yaw_degrees" : 3
+    },
+    {
+      "capture_time_seconds" : 7.947670102119446,
+      "height_mm" : 110,
+      "index" : 143,
+      "pitch_degrees" : 10,
+      "result" : "fail",
+      "roll_degrees" : 10,
+      "server_response" : {
+        "failed_checks" : [
+          "http_422"
+        ],
+        "processing_time_ms" : 0,
+        "reason" : "Server error (422): {\"detail\":\"Invalid request format: 1 validation error for VerificationRequest\\nmetrics.decision_candidates_metrics\\n  Field required [type=missing, input_value={'chromatic_focus_result'... 'gradient':",
+        "request_id" : "local-error",
+        "status" : "error",
+        "valid" : false
+      },
+      "speckle_area_percent" : 0.026153192,
+      "timestamp" : "2026-03-02T14:24:33Z",
+      "yaw_degrees" : 3
+    }
+  ],
+  "sweep" : {
+    "completed_positions" : 144,
+    "config" : {
+      "axis_order" : [
+        "yaw",
+        "pitch",
+        "roll",
+        "height"
+      ],
+      "height" : {
+        "max" : 110,
+        "min" : 110,
+        "step" : 1
+      },
+      "pitch" : {
+        "max" : 10,
+        "min" : -10,
+        "step" : 4
+      },
+      "roll" : {
+        "max" : 10,
+        "min" : -10,
+        "step" : 4
+      },
+      "settle_time_seconds" : 1,
+      "yaw" : {
+        "max" : 3,
+        "min" : -3,
+        "step" : 2
+      }
+    },
+    "duration_seconds" : 1059.7744619846344,
+    "end_time" : "2026-03-02T14:24:33Z",
+    "error_count" : 0,
+    "failed_count" : 144,
+    "start_time" : "2026-03-02T14:06:53Z",
+    "total_positions" : 144,
+    "verification_rate_percent" : 0,
+    "verified_count" : 0,
+    "was_cancelled" : false
+  }
+}
